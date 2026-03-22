@@ -47,6 +47,13 @@ Build:
 ./gradlew build
 ```
 
+Build a runnable fat JAR:
+
+```bash
+./gradlew shadowJar
+java -jar build/libs/html2ppt-1.0.0.jar --help
+```
+
 Compile HTML to PPTX:
 
 ```bash
@@ -79,7 +86,7 @@ git tag v1.0.0
 git push origin v1.0.0
 ```
 
-Tags matching `v*` trigger the GitHub Actions release workflow, which runs `./gradlew test jar` and publishes the generated `build/libs/*.jar` as the GitHub Release asset.
+Tags matching `v*` trigger the GitHub Actions release workflow, which runs `./gradlew test shadowJar` and publishes the generated runnable fat JAR from `build/libs/` as the GitHub Release asset.
 
 ## Specification Guide
 
@@ -335,8 +342,8 @@ Workflow summary:
 
 - push code to `main`
 - push a version tag such as `v1.0.0`
-- GitHub Actions runs `./gradlew test jar`
-- the workflow publishes `build/libs/*.jar` to the GitHub Release for that tag
+- GitHub Actions runs `./gradlew test shadowJar`
+- the workflow publishes the runnable fat JAR in `build/libs/` to the GitHub Release for that tag
 
 ## Project Structure
 

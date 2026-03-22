@@ -51,8 +51,9 @@ Rules:
 
 1. Source code is pushed to GitHub normally; release artifacts are not hand-built and uploaded as the canonical release output.
 2. Pushing a version tag matching `v*` MUST trigger a GitHub Actions workflow that runs the Gradle quality gate and builds the distributable JAR.
-3. The workflow MUST publish the generated `build/libs/*.jar` file as the GitHub Release asset for that tag.
-4. The release pipeline SHOULD be repeatable from CI so the published artifact is reproducible from repository state.
+3. The release artifact MUST be a runnable fat JAR that contains runtime dependencies and can be started directly with `java -jar`.
+4. The workflow MUST publish the generated runnable JAR from `build/libs/` as the GitHub Release asset for that tag.
+5. The release pipeline SHOULD be repeatable from CI so the published artifact is reproducible from repository state.
 
 ## Reference Examples
 

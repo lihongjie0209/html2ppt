@@ -2,6 +2,7 @@ plugins {
     java
     application
     jacoco
+    id("com.github.johnrengelman.shadow") version "8.1.1"
 }
 
 group = "com.html2ppt"
@@ -96,4 +97,16 @@ tasks.jar {
     manifest {
         attributes["Main-Class"] = "com.html2ppt.cli.Main"
     }
+}
+
+tasks.named<com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar>("shadowJar") {
+    archiveClassifier.set("")
+    manifest {
+        attributes["Main-Class"] = "com.html2ppt.cli.Main"
+    }
+    mergeServiceFiles()
+}
+
+tasks.build {
+    dependsOn(tasks.named("shadowJar"))
 }

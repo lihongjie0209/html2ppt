@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html data-layout="16x9" data-title="项目汇报" data-author="html2ppt">
+<head>
+  <style>
+    section {
+      padding: 40px 50px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Title slide */
+    .title-slide {
+      background-color: #003366;
+      justify-content: center;
+      align-items: center;
+    }
+    .title-slide h1 {
+      color: white;
+      font-size: 36pt;
+    }
+    .title-slide p {
+      color: #99ccff;
+      font-size: 18pt;
+    }
+
+    /* Content slides */
+    h2 {
+      font-size: 28pt;
+      color: #003366;
+    }
+
+    .card-row {
+      display: flex;
+      gap: 20px;
+      flex: 1;
+    }
+
+    .card {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      background-color: #f0f4f8;
+      border-radius: 8px;
+      gap: 8px;
+    }
+
+    .metric {
+      font-size: 32pt;
+      font-weight: bold;
+    }
+
+    .green { color: #2e7d32; }
+    .orange { color: #e65100; }
+    .red { color: #c62828; }
+
+    .detail-row {
+      display: flex;
+      gap: 15px;
+      flex: 1;
+    }
+
+    .detail-card {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+      background-color: #e3f2fd;
+      border-radius: 6px;
+      gap: 6px;
+    }
+
+    .action-item {
+      padding: 8px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Slide 1: Title -->
+  <section class="title-slide">
+    <h1>项目汇报</h1>
+    <p>2024年第四季度</p>
+  </section>
+
+  <!-- Slide 2: Metrics Overview -->
+  <section>
+    <h2>项目进展</h2>
+    <div class="card-row">
+      <div class="card">
+        <p>完成率</p>
+        <p class="metric green">95%</p>
+      </div>
+      <div class="card">
+        <p>待处理</p>
+        <p class="metric orange">3项</p>
+      </div>
+      <div class="card">
+        <p>风险项</p>
+        <p class="metric red">1项</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 3: Details -->
+  <section>
+    <h2>关键成果</h2>
+    <div class="detail-row">
+      <div class="detail-card">
+        <p><b>前端重构</b></p>
+        <p>完成 React 18 升级，性能提升 40%</p>
+      </div>
+      <div class="detail-card">
+        <p><b>API 优化</b></p>
+        <p>响应时间降低至 50ms 以内</p>
+      </div>
+    </div>
+    <div class="detail-row">
+      <div class="detail-card">
+        <p><b>测试覆盖</b></p>
+        <p>单元测试覆盖率提升至 92%</p>
+      </div>
+      <div class="detail-card">
+        <p><b>部署自动化</b></p>
+        <p>CI/CD 流水线全面上线</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 4: Action Items -->
+  <section>
+    <h2>下一步计划</h2>
+    <ol>
+      <li>完成剩余 3 个待处理任务</li>
+      <li>解决高风险安全漏洞</li>
+      <li>准备 v2.0 发布计划</li>
+      <li>组织技术分享会</li>
+    </ol>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Bullets Test</title>
+  <style>
+    section {
+      width: 960px;
+      height: 540px;
+      padding: 40px;
+      background: white;
+    }
+    h1 { font-size: 28px; color: #333; margin-bottom: 20px; }
+    h2 { font-size: 20px; color: #666; margin-bottom: 10px; }
+    ul, ol { margin-bottom: 20px; }
+    li { font-size: 18px; margin-bottom: 8px; }
+    
+    .row { display: flex; gap: 40px; }
+    .col { flex: 1; }
+  </style>
+</head>
+<body>
+
+<!-- Slide 1: Default bullets -->
+<section>
+  <h1>Default Bullet Styles</h1>
+  <div class="row">
+    <div class="col">
+      <h2>Unordered List (disc)</h2>
+      <ul>
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h2>Ordered List</h2>
+      <ol>
+        <li>Step one</li>
+        <li>Step two</li>
+        <li>Step three</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 2: Circle and Square bullets -->
+<section>
+  <h1>Circle and Square Bullets</h1>
+  <div class="row">
+    <div class="col">
+      <h2>Circle (○)</h2>
+      <ul style="list-style-type: circle;">
+        <li>Hollow circle bullet</li>
+        <li>Lighter visual weight</li>
+        <li>Good for sub-items</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h2>Square (▪)</h2>
+      <ul style="list-style-type: square;">
+        <li>Square bullet</li>
+        <li>More prominent</li>
+        <li>Professional look</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 3: Special bullets -->
+<section>
+  <h1>Special Bullet Characters</h1>
+  <div class="row">
+    <div class="col">
+      <h2>Dash (—)</h2>
+      <ul style="list-style-type: dash;">
+        <li>Minimalist style</li>
+        <li>Clean and modern</li>
+        <li>Less visual clutter</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h2>Arrow (→)</h2>
+      <ul style="list-style-type: arrow;">
+        <li>Direction indicator</li>
+        <li>Action items</li>
+        <li>Next steps</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 4: Checkmarks and Stars -->
+<section>
+  <h1>Icons as Bullets</h1>
+  <div class="row">
+    <div class="col">
+      <h2>Checkmarks (✓)</h2>
+      <ul style="list-style-type: check;">
+        <li>Completed task</li>
+        <li>Feature available</li>
+        <li>Requirement met</li>
+      </ul>
+    </div>
+    <div class="col">
+      <h2>Stars (★)</h2>
+      <ul style="list-style-type: star;">
+        <li>Important point</li>
+        <li>Key feature</li>
+        <li>Highlight item</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 5: No bullets -->
+<section>
+  <h1>No Bullets</h1>
+  <h2>list-style-type: none</h2>
+  <ul style="list-style-type: none;">
+    <li>Clean text without bullets</li>
+    <li>Useful for custom layouts</li>
+    <li>Or when bullets are distracting</li>
+    <li>Items still properly spaced</li>
+  </ul>
+</section>
+
+</body>
+</html>

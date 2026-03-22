@@ -1,0 +1,172 @@
+╔══════════════════════════════════════════════════════════════╗
+║              html2ppt Layout Debug Dump                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+━━━ Slide 1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  justify=center  align=center  row-gap=20px  col-gap=20px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=186.0  y=151.0  w=348.0  h=56.0  ] "Gradient Test"
+│   ╰─ color=white  font-size=40pt  font-weight=bold
+│ ├─ Text [x=72.0   y=227.0  w=576.0  h=27.0  ] "Testing CSS linear-gradient..."
+│   ╰─ color=rgba(255,255,255,0.8)  font-size=18pt
+
+━━━ Slide 2 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=20px  col-gap=20px   pad=[30px 40px 30px 40px]bg=#f5f5f5
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Basic Gradients"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=84.0   w=640.0  h=291.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=20px  col-gap=20px
+│ │ ├─ Box [x=0.0    y=0.0    w=145.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=145.0  h=18.0  ] "Blue Gradient"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=145.0  h=129.0 ]
+│   ╰─ pad=[20px 20px 20px 20px]
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=105.0  h=46.0  ] "Ocean Blue"
+│   ╰─ margin=[0 0 10px 0]color=white  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=74.0   w=105.0  h=34.0  ] "#2196F3 → #21CBF3"
+│   ╰─ color=rgba(255,255,255,0.9)  font-size=12pt
+│ │ ├─ Box [x=165.0  y=0.0    w=145.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=145.0  h=18.0  ] "Purple Gradient"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=145.0  h=129.0 ]
+│   ╰─ pad=[20px 20px 20px 20px]
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=105.0  h=46.0  ] "Purple Pink"
+│   ╰─ margin=[0 0 10px 0]color=white  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=74.0   w=105.0  h=34.0  ] "#9C27B0 → #E91E63"
+│   ╰─ color=rgba(255,255,255,0.9)  font-size=12pt
+│ │ ├─ Box [x=330.0  y=0.0    w=145.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=145.0  h=18.0  ] "Green Gradient"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=145.0  h=106.0 ]
+│   ╰─ pad=[20px 20px 20px 20px]
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=105.0  h=23.0  ] "Forest"
+│   ╰─ margin=[0 0 10px 0]color=white  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=105.0  h=35.0  ] "#4CAF50 → #8BC34A"
+│   ╰─ color=rgba(255,255,255,0.9)  font-size=12pt
+│ │ ├─ Box [x=495.0  y=0.0    w=145.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=145.0  h=18.0  ] "Orange Gradient"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=145.0  h=106.0 ]
+│   ╰─ pad=[20px 20px 20px 20px]
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=105.0  h=23.0  ] "Sunset"
+│   ╰─ margin=[0 0 10px 0]color=white  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=105.0  h=35.0  ] "#FF5722 → #FFC107"
+│   ╰─ color=rgba(255,255,255,0.9)  font-size=12pt
+
+━━━ Slide 3 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=20px  col-gap=20px   pad=[30px 40px 30px 40px]bg=#eeeeee
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Gradient Directions"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=84.0   w=640.0  h=291.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=20px  col-gap=20px
+│ │ ├─ Box [x=0.0    y=0.0    w=145.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=145.0  h=18.0  ] "To Bottom"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=145.0  h=90.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=105.0  h=23.0  ] "↓"
+│   ╰─ margin=[0 0 10px 0]color=white  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=105.0  h=18.0  ] "to bottom"
+│   ╰─ color=rgba(255,255,255,0.9)  font-size=12pt
+│ │ ├─ Box [x=165.0  y=0.0    w=145.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=145.0  h=18.0  ] "To Right"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=145.0  h=90.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=105.0  h=23.0  ] "→"
+│   ╰─ margin=[0 0 10px 0]color=white  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=105.0  h=18.0  ] "to right"
+│   ╰─ color=rgba(255,255,255,0.9)  font-size=12pt
+│ │ ├─ Box [x=330.0  y=0.0    w=145.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=145.0  h=18.0  ] "To Top"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=145.0  h=90.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=105.0  h=23.0  ] "↑"
+│   ╰─ margin=[0 0 10px 0]color=white  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=105.0  h=18.0  ] "to top"
+│   ╰─ color=rgba(255,255,255,0.9)  font-size=12pt
+│ │ ├─ Box [x=495.0  y=0.0    w=145.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=145.0  h=18.0  ] "To Left"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=145.0  h=90.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=105.0  h=23.0  ] "←"
+│   ╰─ margin=[0 0 10px 0]color=white  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=105.0  h=18.0  ] "to left"
+│   ╰─ color=rgba(255,255,255,0.9)  font-size=12pt
+
+━━━ Slide 4 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=20px  col-gap=20px   pad=[30px 40px 30px 40px]bg=#f0f0f0
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Angle Gradients"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=84.0   w=640.0  h=291.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=20px  col-gap=20px
+│ │ ├─ Box [x=0.0    y=0.0    w=200.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=200.0  h=18.0  ] "45 Degrees"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=200.0  h=90.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=160.0  h=23.0  ] "45°"
+│   ╰─ margin=[0 0 10px 0]color=white  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=160.0  h=18.0  ] "Diagonal up-right"
+│   ╰─ color=rgba(255,255,255,0.9)  font-size=12pt
+│ │ ├─ Box [x=220.0  y=0.0    w=200.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=200.0  h=18.0  ] "135 Degrees"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=200.0  h=90.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=160.0  h=23.0  ] "135°"
+│   ╰─ margin=[0 0 10px 0]color=white  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=160.0  h=18.0  ] "Diagonal down-right"
+│   ╰─ color=rgba(255,255,255,0.9)  font-size=12pt
+│ │ ├─ Box [x=440.0  y=0.0    w=200.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=200.0  h=18.0  ] "To Bottom Right"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=200.0  h=90.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=160.0  h=23.0  ] "↘"
+│   ╰─ margin=[0 0 10px 0]color=white  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=160.0  h=18.0  ] "to bottom right"
+│   ╰─ color=rgba(255,255,255,0.9)  font-size=12pt
+
+━━━ Slide 5 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=20px  col-gap=20px   pad=[30px 40px 30px 40px]bg=#e8e8e8
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Multi-Stop Gradients"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=84.0   w=640.0  h=135.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=20px  col-gap=20px
+│ │ ├─ Box [x=0.0    y=0.0    w=640.0  h=135.0 ]
+│   ╰─ flex-grow=1  flex-shrink=1  flex-basis=0   pad=[30px 30px 30px 30px]
+│ │ │ ├─ Text [x=30.0   y=30.0   w=580.0  h=23.0  ] "Rainbow"
+│   ╰─ margin=[0 0 10px 0]color=white  font-size=16pt  font-weight=bold  text-align=center
+│ │ │ ├─ Text [x=30.0   y=62.0   w=580.0  h=17.0  ] "7 color stops"
+│   ╰─ color=rgba(255,255,255,0.9)  font-size=12pt  text-align=center
+│ ├─ Box [x=40.0   y=239.0  w=640.0  h=136.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=20px  col-gap=20px
+│ │ ├─ Box [x=0.0    y=0.0    w=640.0  h=136.0 ]
+│   ╰─ flex-grow=1  flex-shrink=1  flex-basis=0   pad=[30px 30px 30px 30px]
+│ │ │ ├─ Text [x=30.0   y=30.0   w=580.0  h=23.0  ] "Sunset"
+│   ╰─ margin=[0 0 10px 0]color=white  font-size=16pt  font-weight=bold  text-align=center
+│ │ │ ├─ Text [x=30.0   y=62.0   w=580.0  h=18.0  ] "3 color stops (vertical)"
+│   ╰─ color=rgba(255,255,255,0.9)  font-size=12pt  text-align=center
+
+━━━ Legend ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Coordinates: [x, y, w, h] in points (1pt = 1/72 inch)
+  Slide 16:9 = 720×405pt, 4:3 = 720×540pt
+  Child coordinates are relative to parent group origin

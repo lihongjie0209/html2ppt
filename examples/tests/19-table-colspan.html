@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Table Colspan/Rowspan Tests</title>
+  <style>
+    section {
+      width: 960px;
+      height: 540px;
+      padding: 40px;
+      background: white;
+    }
+    h1 { font-size: 28px; color: #333; margin-bottom: 20px; }
+    h2 { font-size: 20px; color: #666; margin-bottom: 15px; }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+    }
+    th {
+      background-color: #4285f4;
+      color: white;
+      font-weight: bold;
+    }
+    .highlight { background-color: #e8f0fe; }
+    .total { background-color: #34a853; color: white; font-weight: bold; }
+    .category { background-color: #fbbc05; font-weight: bold; }
+  </style>
+</head>
+<body>
+
+<!-- Slide 1: Basic Colspan -->
+<section>
+  <h1>Table Colspan Test</h1>
+  <h2>Basic colspan spanning multiple columns</h2>
+  <table>
+    <tr>
+      <th colspan="3">Q1 2026 Sales Report</th>
+    </tr>
+    <tr>
+      <td>January</td>
+      <td>February</td>
+      <td>March</td>
+    </tr>
+    <tr>
+      <td>$10,000</td>
+      <td>$12,500</td>
+      <td>$15,000</td>
+    </tr>
+    <tr>
+      <td colspan="2">Jan-Feb Total: $22,500</td>
+      <td>March: $15,000</td>
+    </tr>
+    <tr>
+      <td colspan="3" class="total">Q1 Total: $37,500</td>
+    </tr>
+  </table>
+</section>
+
+<!-- Slide 2: Basic Rowspan -->
+<section>
+  <h1>Table Rowspan Test</h1>
+  <h2>Basic rowspan spanning multiple rows</h2>
+  <table>
+    <tr>
+      <th>Category</th>
+      <th>Product</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td rowspan="2" class="category">Electronics</td>
+      <td>Laptop</td>
+      <td>$999</td>
+    </tr>
+    <tr>
+      <td>Phone</td>
+      <td>$699</td>
+    </tr>
+    <tr>
+      <td rowspan="2" class="category">Furniture</td>
+      <td>Desk</td>
+      <td>$299</td>
+    </tr>
+    <tr>
+      <td>Chair</td>
+      <td>$149</td>
+    </tr>
+  </table>
+</section>
+
+<!-- Slide 3: Combined Colspan + Rowspan -->
+<section>
+  <h1>Combined Colspan + Rowspan</h1>
+  <h2>Complex table with both spanning types</h2>
+  <table>
+    <tr>
+      <th colspan="4">Annual Performance Review</th>
+    </tr>
+    <tr>
+      <th>Department</th>
+      <th>Q1</th>
+      <th>Q2</th>
+      <th>Total</th>
+    </tr>
+    <tr>
+      <td rowspan="2" class="category">Sales</td>
+      <td>North: $50K</td>
+      <td>North: $60K</td>
+      <td rowspan="2" class="highlight">$240K</td>
+    </tr>
+    <tr>
+      <td>South: $55K</td>
+      <td>South: $75K</td>
+    </tr>
+    <tr>
+      <td rowspan="2" class="category">Marketing</td>
+      <td>Online: $30K</td>
+      <td>Online: $35K</td>
+      <td rowspan="2" class="highlight">$140K</td>
+    </tr>
+    <tr>
+      <td>Events: $40K</td>
+      <td>Events: $35K</td>
+    </tr>
+    <tr>
+      <td colspan="3" class="total">Grand Total</td>
+      <td class="total">$380K</td>
+    </tr>
+  </table>
+</section>
+
+<!-- Slide 4: Schedule/Timetable -->
+<section>
+  <h1>Schedule Timetable</h1>
+  <h2>Using colspan for time blocks</h2>
+  <table>
+    <tr>
+      <th>Time</th>
+      <th>Monday</th>
+      <th>Tuesday</th>
+      <th>Wednesday</th>
+    </tr>
+    <tr>
+      <td>9:00 AM</td>
+      <td colspan="2" class="highlight">Team Meeting (2 days)</td>
+      <td>Design Review</td>
+    </tr>
+    <tr>
+      <td>11:00 AM</td>
+      <td>Code Review</td>
+      <td>Sprint Planning</td>
+      <td>Code Review</td>
+    </tr>
+    <tr>
+      <td>2:00 PM</td>
+      <td>Development</td>
+      <td colspan="2" class="category">Client Workshop (2 days)</td>
+    </tr>
+    <tr>
+      <td>4:00 PM</td>
+      <td colspan="3" class="total">Daily Standup (All Hands)</td>
+    </tr>
+  </table>
+</section>
+
+<!-- Slide 5: Invoice Layout -->
+<section>
+  <h1>Invoice Table</h1>
+  <h2>Professional invoice with merged cells</h2>
+  <table>
+    <tr>
+      <th colspan="4">Invoice #2026-001</th>
+    </tr>
+    <tr>
+      <td class="highlight">Item</td>
+      <td class="highlight">Qty</td>
+      <td class="highlight">Unit Price</td>
+      <td class="highlight">Amount</td>
+    </tr>
+    <tr>
+      <td>Web Development</td>
+      <td>40</td>
+      <td>$100</td>
+      <td>$4,000</td>
+    </tr>
+    <tr>
+      <td>UI Design</td>
+      <td>20</td>
+      <td>$80</td>
+      <td>$1,600</td>
+    </tr>
+    <tr>
+      <td>Testing</td>
+      <td>10</td>
+      <td>$60</td>
+      <td>$600</td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align: right;">Subtotal:</td>
+      <td>$6,200</td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align: right;">Tax (10%):</td>
+      <td>$620</td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align: right;" class="total">Total:</td>
+      <td class="total">$6,820</td>
+    </tr>
+  </table>
+</section>
+
+</body>
+</html>

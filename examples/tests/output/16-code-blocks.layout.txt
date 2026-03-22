@@ -1,0 +1,75 @@
+╔══════════════════════════════════════════════════════════════╗
+║              html2ppt Layout Debug Dump                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+━━━ Slide 1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  justify=center  align=center  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]bg=#263238
+│ ├─ Text [x=146.0  y=154.0  w=428.0  h=56.0  ] "Code Blocks Test"
+│   ╰─ color=white  font-size=40pt  font-weight=bold
+│ ├─ Text [x=126.0  y=225.0  w=468.0  h=26.0  ] "Testing <pre><code> renderi..."
+│   ╰─ color=#90a4ae  font-size=18pt
+
+━━━ Slide 2 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "JavaScript Example"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Text [x=40.0   y=78.0   w=640.0  h=165.0 ] "function greet(name) {
+    ..."
+│   ╰─ pad=[15px 20px 15px 20px]bg=#282c34  font-size=12pt
+
+━━━ Slide 3 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Python Example"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Text [x=40.0   y=78.0   w=640.0  h=182.0 ] "def calculate_fibonacci(n):..."
+│   ╰─ pad=[15px 20px 15px 20px]bg=#282c34  font-size=12pt
+
+━━━ Slide 4 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Comparison: Before & After"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=79.0   w=640.0  h=296.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=20px  col-gap=20px
+│ │ ├─ Box [x=0.0    y=0.0    w=310.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=310.0  h=21.0  ] "Before (verbose)"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Text [x=0.0    y=29.0   w=310.0  h=148.0 ] "const numbers = [1, 2, 3, 4..."
+│   ╰─ pad=[15px 20px 15px 20px]bg=#282c34  font-size=12pt
+│ │ ├─ Box [x=330.0  y=0.0    w=310.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=310.0  h=21.0  ] "After (concise)"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Text [x=0.0    y=29.0   w=310.0  h=98.0  ] "const numbers = [1, 2, 3, 4..."
+│   ╰─ pad=[15px 20px 15px 20px]bg=#282c34  font-size=12pt
+
+━━━ Slide 5 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "SQL Query"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Text [x=40.0   y=78.0   w=640.0  h=198.0 ] "SELECT 
+    users.name,
+   ..."
+│   ╰─ pad=[15px 20px 15px 20px]bg=#f8f8f8  font-size=12pt
+
+━━━ Slide 6 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "API Documentation"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Text [x=40.0   y=78.0   w=640.0  h=23.0  ] "To authenticate, include yo..."
+│   ╰─ color=#333333  font-size=16pt
+│ ├─ Text [x=40.0   y=116.0  w=640.0  h=81.0  ] "curl -X GET "https://api.ex..."
+│   ╰─ pad=[15px 20px 15px 20px]bg=#282c34  font-size=12pt
+│ ├─ Text [x=40.0   y=211.0  w=640.0  h=23.0  ] "The response will include a..."
+│   ╰─ color=#333333  font-size=16pt
+
+━━━ Legend ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Coordinates: [x, y, w, h] in points (1pt = 1/72 inch)
+  Slide 16:9 = 720×405pt, 4:3 = 720×540pt
+  Child coordinates are relative to parent group origin

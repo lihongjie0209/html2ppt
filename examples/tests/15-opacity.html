@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html data-layout="16x9">
+<head>
+  <style>
+    section { padding: 30px 40px; display: flex; flex-direction: column; gap: 15px; }
+    h2 { font-size: 24pt; color: #1a237e; }
+    .title-slide { background-color: #311b92; justify-content: center; align-items: center; }
+    .title-slide h1 { color: white; font-size: 40pt; }
+    .title-slide p { color: rgba(255, 255, 255, 0.7); font-size: 18pt; }
+    .row { display: flex; gap: 15px; flex: 1; }
+    .col { display: flex; flex-direction: column; gap: 10px; flex: 1; }
+    .label { font-size: 12pt; color: #666666; }
+    .box { padding: 20px; border-radius: 8px; }
+    .demo-text { font-size: 16pt; color: #333333; }
+    
+    /* Opacity classes */
+    .opacity-100 { opacity: 1; background-color: #2196f3; }
+    .opacity-75 { opacity: 0.75; background-color: #2196f3; }
+    .opacity-50 { opacity: 0.5; background-color: #2196f3; }
+    .opacity-25 { opacity: 0.25; background-color: #2196f3; }
+    .opacity-10 { opacity: 0.1; background-color: #2196f3; }
+    
+    /* RGBA backgrounds */
+    .rgba-full { background-color: rgba(76, 175, 80, 1); }
+    .rgba-75 { background-color: rgba(76, 175, 80, 0.75); }
+    .rgba-50 { background-color: rgba(76, 175, 80, 0.5); }
+    .rgba-25 { background-color: rgba(76, 175, 80, 0.25); }
+    .rgba-10 { background-color: rgba(76, 175, 80, 0.1); }
+    
+    /* Transparent */
+    .transparent { background-color: transparent; border: 2px solid #9c27b0; }
+    
+    /* Overlay examples */
+    .overlay-container { position: relative; display: flex; flex: 1; }
+    .base-image { background-color: #e91e63; flex: 1; }
+    .overlay { 
+      background-color: rgba(0, 0, 0, 0.5); 
+      padding: 15px; 
+      border-radius: 8px; 
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .overlay p { color: white; font-size: 16pt; }
+    
+    /* Cards with RGBA shadow effect */
+    .card-stack { display: flex; flex-direction: column; gap: 5px; flex: 1; }
+    .shadow-card { 
+      background-color: white; 
+      padding: 15px; 
+      border-radius: 8px; 
+      border: 1px solid #e0e0e0;
+    }
+    .shadow-effect { 
+      background-color: rgba(0, 0, 0, 0.1); 
+      padding: 20px; 
+      border-radius: 12px;
+    }
+    
+    /* Gradient-like effect with stacked RGBA */
+    .gradient-effect { display: flex; flex-direction: column; flex: 1; }
+    .grad-top { background-color: rgba(156, 39, 176, 0.9); padding: 20px; }
+    .grad-mid { background-color: rgba(156, 39, 176, 0.5); padding: 20px; }
+    .grad-bot { background-color: rgba(156, 39, 176, 0.2); padding: 20px; }
+    .grad-top p, .grad-mid p, .grad-bot p { font-size: 14pt; text-align: center; }
+    .grad-top p { color: white; }
+    .grad-mid p { color: #333333; }
+    .grad-bot p { color: #666666; }
+  </style>
+</head>
+<body>
+
+  <!-- Slide 1: Title -->
+  <section class="title-slide">
+    <h1>Opacity & RGBA Test</h1>
+    <p>Testing transparency in backgrounds and colors</p>
+  </section>
+
+  <!-- Slide 2: CSS Opacity -->
+  <section>
+    <h2>CSS Opacity Property</h2>
+    <div class="row">
+      <div class="col">
+        <p class="label">opacity: 1</p>
+        <div class="box opacity-100">
+          <p class="demo-text" style="color: white;">100%</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">opacity: 0.75</p>
+        <div class="box opacity-75">
+          <p class="demo-text" style="color: white;">75%</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">opacity: 0.5</p>
+        <div class="box opacity-50">
+          <p class="demo-text" style="color: white;">50%</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">opacity: 0.25</p>
+        <div class="box opacity-25">
+          <p class="demo-text">25%</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">opacity: 0.1</p>
+        <div class="box opacity-10">
+          <p class="demo-text">10%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 3: RGBA Backgrounds -->
+  <section>
+    <h2>RGBA Background Colors</h2>
+    <div class="row">
+      <div class="col">
+        <p class="label">rgba(76,175,80,1)</p>
+        <div class="box rgba-full">
+          <p class="demo-text" style="color: white;">Alpha 1.0</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">rgba(...,0.75)</p>
+        <div class="box rgba-75">
+          <p class="demo-text" style="color: white;">Alpha 0.75</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">rgba(...,0.5)</p>
+        <div class="box rgba-50">
+          <p class="demo-text">Alpha 0.5</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">rgba(...,0.25)</p>
+        <div class="box rgba-25">
+          <p class="demo-text">Alpha 0.25</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">rgba(...,0.1)</p>
+        <div class="box rgba-10">
+          <p class="demo-text">Alpha 0.1</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 4: Transparent Background -->
+  <section>
+    <h2>Transparent Background</h2>
+    <div class="row">
+      <div class="col">
+        <p class="label">background: transparent</p>
+        <div class="box transparent">
+          <p class="demo-text">Border only, no fill</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">Overlay with rgba(0,0,0,0.5)</p>
+        <div class="overlay-container">
+          <div class="overlay">
+            <p>Dark Overlay</p>
+            <p style="font-size: 12pt; color: rgba(255,255,255,0.7);">50% black background</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 5: Practical Use Cases -->
+  <section>
+    <h2>Practical Use Cases</h2>
+    <div class="row">
+      <div class="col">
+        <p class="label">Shadow Effect with RGBA</p>
+        <div class="card-stack">
+          <div class="shadow-effect">
+            <div class="shadow-card">
+              <p class="demo-text" style="font-weight: bold;">Card with Shadow</p>
+              <p style="font-size: 12pt; color: #757575;">The rgba shadow creates depth</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">Gradient-like Effect</p>
+        <div class="gradient-effect">
+          <div class="grad-top"><p>90% Opacity</p></div>
+          <div class="grad-mid"><p>50% Opacity</p></div>
+          <div class="grad-bot"><p>20% Opacity</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

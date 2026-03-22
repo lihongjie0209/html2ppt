@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Object-fit Test</title>
+  <style>
+    section {
+      width: 960px;
+      height: 540px;
+      padding: 40px;
+      background: white;
+    }
+    h1 { font-size: 28px; color: #333; margin-bottom: 20px; }
+    h2 { font-size: 18px; color: #666; margin-bottom: 10px; }
+    
+    .row { display: flex; gap: 30px; align-items: flex-start; }
+    .demo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      border: 2px solid #ccc;
+      background: #f0f0f0;
+    }
+    .label { font-size: 14px; color: #666; margin-top: 8px; }
+  </style>
+</head>
+<body>
+
+<!-- Slide 1: object-fit: fill (default) -->
+<section>
+  <h1>object-fit: fill (default)</h1>
+  <p style="font-size: 16px; color: #888; margin-bottom: 20px;">Image stretches to fill container, may distort aspect ratio</p>
+  <div class="row">
+    <div class="demo">
+      <div class="container" style="width: 200px; height: 150px;">
+        <img src="images/landscape.jpg" style="width: 100%; height: 100%; object-fit: fill;">
+      </div>
+      <p class="label">Landscape in square</p>
+    </div>
+    <div class="demo">
+      <div class="container" style="width: 150px; height: 200px;">
+        <img src="images/landscape.jpg" style="width: 100%; height: 100%; object-fit: fill;">
+      </div>
+      <p class="label">Landscape in portrait</p>
+    </div>
+    <div class="demo">
+      <div class="container" style="width: 200px; height: 200px;">
+        <img src="images/portrait.jpg" style="width: 100%; height: 100%; object-fit: fill;">
+      </div>
+      <p class="label">Portrait in square</p>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 2: object-fit: contain -->
+<section>
+  <h1>object-fit: contain</h1>
+  <p style="font-size: 16px; color: #888; margin-bottom: 20px;">Image scales to fit inside container, preserves aspect ratio</p>
+  <div class="row">
+    <div class="demo">
+      <div class="container" style="width: 200px; height: 150px;">
+        <img src="images/landscape.jpg" style="width: 100%; height: 100%; object-fit: contain;">
+      </div>
+      <p class="label">Landscape in wide</p>
+    </div>
+    <div class="demo">
+      <div class="container" style="width: 150px; height: 200px;">
+        <img src="images/landscape.jpg" style="width: 100%; height: 100%; object-fit: contain;">
+      </div>
+      <p class="label">Landscape in tall</p>
+    </div>
+    <div class="demo">
+      <div class="container" style="width: 200px; height: 200px;">
+        <img src="images/portrait.jpg" style="width: 100%; height: 100%; object-fit: contain;">
+      </div>
+      <p class="label">Portrait in square</p>
+    </div>
+    <div class="demo">
+      <div class="container" style="width: 250px; height: 150px;">
+        <img src="images/portrait.jpg" style="width: 100%; height: 100%; object-fit: contain;">
+      </div>
+      <p class="label">Portrait in wide</p>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 3: object-fit: cover -->
+<section>
+  <h1>object-fit: cover</h1>
+  <p style="font-size: 16px; color: #888; margin-bottom: 20px;">Image scales to cover container, crops edges if needed</p>
+  <div class="row">
+    <div class="demo">
+      <div class="container" style="width: 200px; height: 150px;">
+        <img src="images/landscape.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <p class="label">Landscape in wide</p>
+    </div>
+    <div class="demo">
+      <div class="container" style="width: 150px; height: 200px;">
+        <img src="images/landscape.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <p class="label">Landscape in tall</p>
+    </div>
+    <div class="demo">
+      <div class="container" style="width: 200px; height: 200px;">
+        <img src="images/portrait.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <p class="label">Portrait in square</p>
+    </div>
+    <div class="demo">
+      <div class="container" style="width: 250px; height: 150px;">
+        <img src="images/portrait.jpg" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      <p class="label">Portrait in wide</p>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 4: object-fit: none -->
+<section>
+  <h1>object-fit: none</h1>
+  <p style="font-size: 16px; color: #888; margin-bottom: 20px;">Image at natural size, centered (may overflow)</p>
+  <div class="row">
+    <div class="demo">
+      <div class="container" style="width: 200px; height: 150px;">
+        <img src="images/small-icon.png" style="width: 100%; height: 100%; object-fit: none;">
+      </div>
+      <p class="label">Small image</p>
+    </div>
+    <div class="demo">
+      <div class="container" style="width: 200px; height: 150px;">
+        <img src="images/landscape.jpg" style="width: 100%; height: 100%; object-fit: none;">
+      </div>
+      <p class="label">Large image (centered)</p>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 5: object-fit: scale-down -->
+<section>
+  <h1>object-fit: scale-down</h1>
+  <p style="font-size: 16px; color: #888; margin-bottom: 20px;">Like contain but never enlarges image</p>
+  <div class="row">
+    <div class="demo">
+      <div class="container" style="width: 200px; height: 150px;">
+        <img src="images/small-icon.png" style="width: 100%; height: 100%; object-fit: scale-down;">
+      </div>
+      <p class="label">Small stays small</p>
+    </div>
+    <div class="demo">
+      <div class="container" style="width: 200px; height: 150px;">
+        <img src="images/landscape.jpg" style="width: 100%; height: 100%; object-fit: scale-down;">
+      </div>
+      <p class="label">Large scales down</p>
+    </div>
+    <div class="demo">
+      <div class="container" style="width: 400px; height: 300px;">
+        <img src="images/landscape.jpg" style="width: 100%; height: 100%; object-fit: scale-down;">
+      </div>
+      <p class="label">Large scales down</p>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

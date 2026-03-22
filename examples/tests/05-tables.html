@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html data-layout="16x9">
+<head>
+  <style>
+    section { padding: 30px 40px; display: flex; flex-direction: column; gap: 15px; }
+    .title-slide { background-color: #0d47a1; justify-content: center; align-items: center; }
+    .title-slide h1 { color: white; font-size: 40pt; }
+    .title-slide p { color: #90caf9; font-size: 18pt; }
+    h2 { font-size: 24pt; color: #0d47a1; }
+    table { font-size: 14pt; }
+    th { background-color: #1565c0; color: white; font-size: 14pt; }
+    td { font-size: 14pt; }
+    .desc { font-size: 14pt; color: #666666; }
+  </style>
+</head>
+<body>
+
+  <!-- Slide 1: Title -->
+  <section class="title-slide">
+    <h1>Table Rendering</h1>
+    <p>Testing table layouts with headers, styling and data</p>
+  </section>
+
+  <!-- Slide 2: Basic table -->
+  <section>
+    <h2>Basic Data Table</h2>
+    <table>
+      <tr><th>Name</th><th>Role</th><th>Department</th><th>Status</th></tr>
+      <tr><td>Alice Chen</td><td>Tech Lead</td><td>Engineering</td><td>Active</td></tr>
+      <tr><td>Bob Wang</td><td>Designer</td><td>Product</td><td>Active</td></tr>
+      <tr><td>Carol Li</td><td>PM</td><td>Management</td><td>On Leave</td></tr>
+      <tr><td>David Zhang</td><td>Backend Dev</td><td>Engineering</td><td>Active</td></tr>
+    </table>
+  </section>
+
+  <!-- Slide 3: Financial table -->
+  <section>
+    <h2>Quarterly Revenue</h2>
+    <table>
+      <tr><th>Quarter</th><th>Revenue</th><th>Expenses</th><th>Profit</th><th>Growth</th></tr>
+      <tr><td>Q1 2024</td><td>$1.2M</td><td>$0.8M</td><td>$0.4M</td><td>+5%</td></tr>
+      <tr><td>Q2 2024</td><td>$1.5M</td><td>$0.9M</td><td>$0.6M</td><td>+25%</td></tr>
+      <tr><td>Q3 2024</td><td>$1.8M</td><td>$1.0M</td><td>$0.8M</td><td>+20%</td></tr>
+      <tr><td>Q4 2024</td><td>$2.4M</td><td>$1.2M</td><td>$1.2M</td><td>+33%</td></tr>
+    </table>
+  </section>
+
+  <!-- Slide 4: Styled table with colored header -->
+  <section>
+    <h2>Feature Comparison</h2>
+    <table>
+      <tr>
+        <th style="background-color: #4a148c; color: white;">Feature</th>
+        <th style="background-color: #4a148c; color: white;">Basic</th>
+        <th style="background-color: #4a148c; color: white;">Pro</th>
+        <th style="background-color: #4a148c; color: white;">Enterprise</th>
+      </tr>
+      <tr><td>Users</td><td>5</td><td>50</td><td>Unlimited</td></tr>
+      <tr><td>Storage</td><td>1 GB</td><td>100 GB</td><td>Unlimited</td></tr>
+      <tr><td>Support</td><td>Email</td><td>Priority</td><td>Dedicated</td></tr>
+      <tr><td>API Access</td><td>No</td><td>Yes</td><td>Yes</td></tr>
+      <tr><td>Price</td><td>Free</td><td>$29/mo</td><td>Custom</td></tr>
+    </table>
+  </section>
+
+  <!-- Slide 5: CJK table -->
+  <section>
+    <h2>项目进度表</h2>
+    <table>
+      <tr>
+        <th style="background-color: #00695c; color: white;">项目名称</th>
+        <th style="background-color: #00695c; color: white;">负责人</th>
+        <th style="background-color: #00695c; color: white;">进度</th>
+        <th style="background-color: #00695c; color: white;">截止日期</th>
+      </tr>
+      <tr><td>前端重构</td><td>张三</td><td>95%</td><td>2024-12-15</td></tr>
+      <tr><td>API 升级</td><td>李四</td><td>80%</td><td>2024-12-20</td></tr>
+      <tr><td>移动端适配</td><td>王五</td><td>60%</td><td>2025-01-10</td></tr>
+      <tr><td>性能优化</td><td>赵六</td><td>40%</td><td>2025-01-30</td></tr>
+    </table>
+  </section>
+
+</body>
+</html>

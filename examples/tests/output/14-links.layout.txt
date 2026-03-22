@@ -1,0 +1,128 @@
+╔══════════════════════════════════════════════════════════════╗
+║              html2ppt Layout Debug Dump                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+━━━ Slide 1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  justify=center  align=center  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]bg=#0d47a1
+│ ├─ Text [x=160.0  y=154.0  w=400.0  h=56.0  ] "Hyperlinks Test"
+│   ╰─ color=white  font-size=40pt  font-weight=bold
+│ ├─ Text [x=99.0   y=225.0  w=522.0  h=26.0  ] "Testing <a href> element re..."
+│   ╰─ color=#bbdefb  font-size=18pt
+
+━━━ Slide 2 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Basic Links"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=79.0   w=640.0  h=118.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=10px  col-gap=10px   pad=[20px 20px 20px 20px]bg=#f5f5f5
+│ │ ├─ Text [x=20.0   y=20.0   w=600.0  h=21.0  ] "Visit our website: example.com"
+│   ╰─ color=#666666  font-size=14pt
+│ │ ├─ Text [x=20.0   y=49.0   w=600.0  h=20.0  ] "Check the GitHub Repository..."
+│   ╰─ color=#666666  font-size=14pt
+│ │ ├─ Text [x=20.0   y=79.0   w=600.0  h=21.0  ] "Contact us at hello@example..."
+│   ╰─ color=#666666  font-size=14pt
+
+━━━ Slide 3 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Multiple Links in Text"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=79.0   w=640.0  h=108.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=10px  col-gap=10px   pad=[20px 20px 20px 20px]bg=#f5f5f5
+│ │ ├─ Text [x=20.0   y=20.0   w=600.0  h=40.0  ] "Learn more about HTML, 
+  ..."
+│   ╰─ color=#666666  font-size=14pt
+│ │ ├─ Text [x=20.0   y=69.0   w=600.0  h=21.0  ] "You can also visit Stack Ov..."
+│   ╰─ color=#666666  font-size=14pt
+
+━━━ Slide 4 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Navigation Style Links"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=79.0   w=640.0  h=62.0  ]
+│   ╰─ display=flex  justify=center  row-gap=30px  col-gap=30px   pad=[20px 0 20px 0]
+│ │ ├─ Box [x=142.0  y=20.0   w=40.0   h=22.0  ]
+│   ╰─ color=#1976d2  font-size=16pt
+│ │ │ ├─ Text [x=0.0    y=0.0    w=40.0   h=23.0  ] "Home"
+│   ╰─ color=#1976d2  font-size=16pt
+│ │ ├─ Box [x=212.0  y=20.0   w=79.0   h=22.0  ]
+│   ╰─ color=#1976d2  font-size=16pt
+│ │ │ ├─ Text [x=0.0    y=0.0    w=79.0   h=23.0  ] "Products"
+│   ╰─ color=#1976d2  font-size=16pt
+│ │ ├─ Box [x=321.0  y=20.0   w=78.0   h=22.0  ]
+│   ╰─ color=#1976d2  font-size=16pt
+│ │ │ ├─ Text [x=0.0    y=0.0    w=79.0   h=23.0  ] "About Us"
+│   ╰─ color=#1976d2  font-size=16pt
+│ │ ├─ Box [x=429.0  y=20.0   w=69.0   h=22.0  ]
+│   ╰─ color=#1976d2  font-size=16pt
+│ │ │ ├─ Text [x=0.0    y=0.0    w=69.0   h=23.0  ] "Contact"
+│   ╰─ color=#1976d2  font-size=16pt
+│ ├─ Box [x=40.0   y=156.0  w=640.0  h=154.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=10px  col-gap=10px   pad=[20px 20px 20px 20px]bg=#f5f5f5
+│ │ ├─ Text [x=20.0   y=20.0   w=600.0  h=26.0  ] "Quick Links"
+│   ╰─ color=#333333  font-size=18pt  font-weight=bold
+│ │ ├─ Text [x=20.0   y=55.0   w=600.0  h=20.0  ] "Documentation"
+│   ╰─ color=#666666  font-size=14pt
+│ │ ├─ Text [x=20.0   y=84.0   w=600.0  h=21.0  ] "API Reference"
+│   ╰─ color=#666666  font-size=14pt
+│ │ ├─ Text [x=20.0   y=114.0  w=600.0  h=20.0  ] "Support Center"
+│   ╰─ color=#666666  font-size=14pt
+
+━━━ Slide 5 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Call to Action"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=79.0   w=640.0  h=296.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=20px  col-gap=20px
+│ │ ├─ Box [x=0.0    y=0.0    w=310.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Box [x=0.0    y=0.0    w=310.0  h=179.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=10px  col-gap=10px   pad=[20px 20px 20px 20px]bg=#f5f5f5
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=270.0  h=26.0  ] "Free Trial"
+│   ╰─ color=#333333  font-size=18pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=55.0   w=270.0  h=40.0  ] "Start your 30-day free tria..."
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ │ ├─ Box [x=20.0   y=104.0  w=270.0  h=55.0  ]
+│   ╰─ display=flex  justify=center  align=center   pad=[15px 30px 15px 30px]bg=#4caf50  color=white  font-size=18pt  font-weight=bold
+│ │ │ │ │ ├─ Box [x=57.0   y=15.0   w=156.0  h=25.0  ]
+│   ╰─ color=white  font-size=18pt  font-weight=bold
+│ │ │ │ │ │ ├─ Text [x=0.0    y=0.0    w=158.0  h=26.0  ] "Sign Up Now →"
+│   ╰─ color=white  font-size=18pt  font-weight=bold
+│ │ ├─ Box [x=330.0  y=0.0    w=310.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Box [x=0.0    y=0.0    w=310.0  h=160.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=10px  col-gap=10px   pad=[20px 20px 20px 20px]bg=#f5f5f5
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=270.0  h=26.0  ] "Learn More"
+│   ╰─ color=#333333  font-size=18pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=55.0   w=270.0  h=21.0  ] "Discover all our features."
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ │ ├─ Box [x=20.0   y=85.0   w=270.0  h=56.0  ]
+│   ╰─ display=flex  justify=center  align=center   pad=[15px 30px 15px 30px]bg=#1976d2  color=white  font-size=18pt  font-weight=bold
+│ │ │ │ │ ├─ Box [x=45.0   y=15.0   w=180.0  h=26.0  ]
+│   ╰─ color=white  font-size=18pt  font-weight=bold
+│ │ │ │ │ │ ├─ Text [x=0.0    y=0.0    w=180.0  h=26.0  ] "View Features →"
+│   ╰─ color=white  font-size=18pt  font-weight=bold
+
+━━━ Slide 6 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Footer Style Links"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=79.0   w=640.0  h=202.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px   pad=[20px 20px 20px 20px]bg=#f5f5f5
+│ │ ├─ Text [x=20.0   y=20.0   w=600.0  h=21.0  ] "Content area..."
+│   ╰─ color=#666666  font-size=14pt
+│ ├─ Box [x=40.0   y=296.0  w=640.0  h=79.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=#263238
+│ │ ├─ Text [x=20.0   y=20.0   w=600.0  h=40.0  ] "© 2024 Example Corp. 
+    ..."
+│   ╰─ color=#90a4ae  font-size=14pt  text-align=center
+
+━━━ Legend ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Coordinates: [x, y, w, h] in points (1pt = 1/72 inch)
+  Slide 16:9 = 720×405pt, 4:3 = 720×540pt
+  Child coordinates are relative to parent group origin

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html data-layout="16x9">
+<head>
+  <style>
+    section { padding: 30px 40px; display: flex; flex-direction: column; gap: 15px; }
+    h2 { font-size: 24pt; color: #1a237e; }
+    .title-slide { background-color: #0d47a1; justify-content: center; align-items: center; }
+    .title-slide h1 { color: white; font-size: 40pt; }
+    .title-slide p { color: #bbdefb; font-size: 18pt; }
+    .row { display: flex; gap: 20px; flex: 1; }
+    .col { display: flex; flex-direction: column; gap: 10px; flex: 1; }
+    .card { 
+      display: flex; flex-direction: column; gap: 10px;
+      background-color: #f5f5f5; padding: 20px; border-radius: 8px; 
+    }
+    .card h3 { font-size: 18pt; color: #333333; }
+    .card p { font-size: 14pt; color: #666666; }
+    p { font-size: 16pt; }
+    .link-demo { font-size: 18pt; }
+    a { color: #1976d2; }
+    .cta-button {
+      display: flex; justify-content: center; align-items: center;
+      background-color: #4caf50; color: white; padding: 15px 30px;
+      border-radius: 8px; font-size: 18pt; font-weight: bold;
+    }
+    .nav-links { display: flex; gap: 30px; justify-content: center; padding: 20px 0; }
+    .nav-links a { font-size: 16pt; }
+    .footer { background-color: #263238; padding: 20px; }
+    .footer p { color: #90a4ae; font-size: 14pt; text-align: center; }
+    .footer a { color: #4fc3f7; }
+  </style>
+</head>
+<body>
+
+  <!-- Slide 1: Title -->
+  <section class="title-slide">
+    <h1>Hyperlinks Test</h1>
+    <p>Testing &lt;a href&gt; element rendering in PowerPoint</p>
+  </section>
+
+  <!-- Slide 2: Basic Links -->
+  <section>
+    <h2>Basic Links</h2>
+    <div class="card">
+      <p class="link-demo">Visit our website: <a href="https://example.com">example.com</a></p>
+      <p class="link-demo">Check the <a href="https://github.com">GitHub Repository</a> for more info.</p>
+      <p class="link-demo">Contact us at <a href="mailto:hello@example.com">hello@example.com</a></p>
+    </div>
+  </section>
+
+  <!-- Slide 3: Multiple Links in Paragraph -->
+  <section>
+    <h2>Multiple Links in Text</h2>
+    <div class="card">
+      <p>Learn more about <a href="https://html.spec.whatwg.org/">HTML</a>, 
+         <a href="https://www.w3.org/Style/CSS/">CSS</a>, and 
+         <a href="https://javascript.info/">JavaScript</a> on their official websites.</p>
+      <p>You can also visit <a href="https://stackoverflow.com">Stack Overflow</a> for help.</p>
+    </div>
+  </section>
+
+  <!-- Slide 4: Navigation Links -->
+  <section>
+    <h2>Navigation Style Links</h2>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="card">
+      <h3>Quick Links</h3>
+      <p><a href="https://docs.example.com">Documentation</a></p>
+      <p><a href="https://api.example.com">API Reference</a></p>
+      <p><a href="https://support.example.com">Support Center</a></p>
+    </div>
+  </section>
+
+  <!-- Slide 5: Call-to-Action Links -->
+  <section>
+    <h2>Call to Action</h2>
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <h3>Free Trial</h3>
+          <p>Start your 30-day free trial today.</p>
+          <div class="cta-button">
+            <a href="https://example.com/signup" style="color: white;">Sign Up Now →</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <h3>Learn More</h3>
+          <p>Discover all our features.</p>
+          <div class="cta-button" style="background-color: #1976d2;">
+            <a href="https://example.com/features" style="color: white;">View Features →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 6: Footer with Links -->
+  <section>
+    <h2>Footer Style Links</h2>
+    <div class="card" style="flex: 1;">
+      <p>Content area...</p>
+    </div>
+    <div class="footer">
+      <p>© 2024 Example Corp. 
+        <a href="https://example.com/privacy">Privacy Policy</a> | 
+        <a href="https://example.com/terms">Terms of Service</a> | 
+        <a href="https://example.com/contact">Contact Us</a>
+      </p>
+    </div>
+  </section>
+
+</body>
+</html>

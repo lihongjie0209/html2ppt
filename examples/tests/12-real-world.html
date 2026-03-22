@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html data-layout="16x9">
+<head>
+  <style>
+    section { padding: 30px 40px; display: flex; flex-direction: column; gap: 12px; }
+    .title-slide { background-color: #1a237e; justify-content: center; align-items: center; }
+    .title-slide h1 { color: white; font-size: 40pt; }
+    .title-slide p { color: #9fa8da; font-size: 18pt; }
+    h2 { font-size: 22pt; color: #1a237e; }
+    .row { display: flex; gap: 12px; flex: 1; }
+    .col { flex: 1; display: flex; flex-direction: column; gap: 8px; }
+    .sidebar {
+      width: 140px; display: flex; flex-direction: column; gap: 6px;
+      background-color: #1a237e; padding: 15px; border-radius: 8px;
+    }
+    .sidebar p { color: white; font-size: 13pt; }
+    .sidebar .active { background-color: #3949ab; padding: 6px 10px; border-radius: 4px; }
+    .main-content { flex: 1; display: flex; flex-direction: column; gap: 10px; }
+    .stat-card {
+      flex: 1; display: flex; flex-direction: column;
+      justify-content: center; align-items: center;
+      background-color: #f5f5f5; border-radius: 8px; padding: 10px; gap: 5px;
+    }
+    .stat-value { font-size: 22pt; font-weight: bold; }
+    .stat-label { font-size: 11pt; color: #757575; }
+    .chart-area {
+      flex: 2; background-color: #e8eaf6; border-radius: 8px; padding: 15px;
+      display: flex; flex-direction: column; gap: 5px;
+    }
+    .chart-title { font-size: 14pt; font-weight: bold; color: #1a237e; }
+    .chart-body { flex: 1; background-color: #c5cae9; border-radius: 4px; }
+    .timeline {
+      display: flex; flex-direction: column; gap: 6px;
+    }
+    .timeline-item {
+      display: flex; gap: 10px; padding: 8px 12px;
+      background-color: #f5f5f5; border-radius: 6px;
+    }
+    .timeline-dot {
+      width: 10px; height: 10px; border-radius: 5px;
+      background-color: #42a5f5; margin-top: 4px;
+    }
+    .timeline-text { font-size: 13pt; }
+    .timeline-time { font-size: 11pt; color: #9e9e9e; }
+    .footer { display: flex; justify-content: space-between; padding: 8px 0; }
+    .footer p { font-size: 11pt; color: #9e9e9e; }
+  </style>
+</head>
+<body>
+
+  <!-- Slide 1: Title -->
+  <section class="title-slide">
+    <h1>Real-World Layouts</h1>
+    <p>Complex presentation patterns found in practice</p>
+  </section>
+
+  <!-- Slide 2: Dashboard with sidebar -->
+  <section>
+    <h2>Analytics Dashboard</h2>
+    <div class="row">
+      <div class="sidebar">
+        <p class="active">Overview</p>
+        <p>Users</p>
+        <p>Revenue</p>
+        <p>Products</p>
+        <p>Settings</p>
+      </div>
+      <div class="main-content">
+        <div style="display: flex; gap: 10px;">
+          <div class="stat-card">
+            <p class="stat-value" style="color: #1565c0;">12.4K</p>
+            <p class="stat-label">Active Users</p>
+          </div>
+          <div class="stat-card">
+            <p class="stat-value" style="color: #2e7d32;">$84.2K</p>
+            <p class="stat-label">Revenue</p>
+          </div>
+          <div class="stat-card">
+            <p class="stat-value" style="color: #e65100;">3.2%</p>
+            <p class="stat-label">Conversion</p>
+          </div>
+          <div class="stat-card">
+            <p class="stat-value" style="color: #c62828;">24</p>
+            <p class="stat-label">Issues</p>
+          </div>
+        </div>
+        <div class="chart-area">
+          <p class="chart-title">Monthly Trend</p>
+          <div class="chart-body"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 3: Timeline layout -->
+  <section>
+    <h2>Project Timeline</h2>
+    <div class="row">
+      <div class="col">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot" style="background-color: #4caf50;"></div>
+            <div style="display: flex; flex-direction: column;">
+              <p class="timeline-text"><b>Phase 1: Discovery</b></p>
+              <p class="timeline-time">Jan 2024 — Completed</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot" style="background-color: #4caf50;"></div>
+            <div style="display: flex; flex-direction: column;">
+              <p class="timeline-text"><b>Phase 2: Design</b></p>
+              <p class="timeline-time">Feb—Mar 2024 — Completed</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot" style="background-color: #ff9800;"></div>
+            <div style="display: flex; flex-direction: column;">
+              <p class="timeline-text"><b>Phase 3: Development</b></p>
+              <p class="timeline-time">Apr—Sep 2024 — In Progress</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot" style="background-color: #9e9e9e;"></div>
+            <div style="display: flex; flex-direction: column;">
+              <p class="timeline-text"><b>Phase 4: Testing</b></p>
+              <p class="timeline-time">Oct—Nov 2024 — Planned</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-dot" style="background-color: #9e9e9e;"></div>
+            <div style="display: flex; flex-direction: column;">
+              <p class="timeline-text"><b>Phase 5: Launch</b></p>
+              <p class="timeline-time">Dec 2024 — Planned</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div style="background-color: #e8f5e9; padding: 15px; border-radius: 8px; flex: 1; display: flex; flex-direction: column; gap: 8px;">
+          <p style="font-size: 16pt; font-weight: bold; color: #2e7d32;">Current Sprint</p>
+          <p style="font-size: 13pt;">Sprint 14 — Week of Oct 7</p>
+          <p style="font-size: 13pt;"><b>Goal:</b> Complete user auth module</p>
+          <p style="font-size: 13pt;"><b>Tasks:</b> 8 remaining</p>
+          <p style="font-size: 13pt;"><b>Blockers:</b> 1 (API dependency)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 4: Comparison layout -->
+  <section>
+    <h2>Before &amp; After</h2>
+    <div class="row">
+      <div style="flex: 1; display: flex; flex-direction: column; gap: 8px; padding: 15px; background-color: #ffebee; border-radius: 8px;">
+        <p style="font-size: 18pt; font-weight: bold; color: #c62828;">Before</p>
+        <p style="font-size: 14pt;">Response time: 850ms</p>
+        <p style="font-size: 14pt;">Error rate: 2.3%</p>
+        <p style="font-size: 14pt;">Uptime: 98.5%</p>
+        <p style="font-size: 14pt;">Test coverage: 45%</p>
+        <p style="font-size: 14pt;">Deploy frequency: Monthly</p>
+      </div>
+      <div style="flex: 1; display: flex; flex-direction: column; gap: 8px; padding: 15px; background-color: #e8f5e9; border-radius: 8px;">
+        <p style="font-size: 18pt; font-weight: bold; color: #2e7d32;">After</p>
+        <p style="font-size: 14pt;">Response time: 120ms</p>
+        <p style="font-size: 14pt;">Error rate: 0.1%</p>
+        <p style="font-size: 14pt;">Uptime: 99.99%</p>
+        <p style="font-size: 14pt;">Test coverage: 92%</p>
+        <p style="font-size: 14pt;">Deploy frequency: Daily</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 5: Footer / multi-section layout -->
+  <section>
+    <h2>Summary &amp; Contact</h2>
+    <div style="flex: 1; display: flex; flex-direction: column; gap: 12px;">
+      <div class="row">
+        <div style="flex: 1; background-color: #e3f2fd; padding: 15px; border-radius: 8px; display: flex; flex-direction: column; gap: 5px;">
+          <p style="font-size: 16pt; font-weight: bold;">Key Takeaways</p>
+          <ul>
+            <li style="font-size: 13pt;">Revenue grew 33% quarter-over-quarter</li>
+            <li style="font-size: 13pt;">User base expanded to 48K+ active users</li>
+            <li style="font-size: 13pt;">System reliability improved to 99.99%</li>
+          </ul>
+        </div>
+        <div style="flex: 1; background-color: #f3e5f5; padding: 15px; border-radius: 8px; display: flex; flex-direction: column; gap: 5px;">
+          <p style="font-size: 16pt; font-weight: bold;">Next Steps</p>
+          <ol>
+            <li style="font-size: 13pt;">Finalize Q1 2025 roadmap</li>
+            <li style="font-size: 13pt;">Hire 3 additional engineers</li>
+            <li style="font-size: 13pt;">Launch mobile app beta</li>
+          </ol>
+        </div>
+      </div>
+      <div class="footer">
+        <p>Confidential — Internal Use Only</p>
+        <p>Contact: team@company.com</p>
+        <p>Q4 2024 Report</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Shapes Test</title>
+  <style>
+    section {
+      width: 960px;
+      height: 540px;
+      padding: 40px;
+      background: white;
+    }
+    h1 { font-size: 28px; color: #333; margin-bottom: 20px; }
+    h2 { font-size: 18px; color: #666; margin-bottom: 10px; }
+    
+    .row { display: flex; gap: 30px; align-items: center; }
+    .shape-demo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .label { font-size: 14px; color: #999; margin-top: 10px; }
+  </style>
+</head>
+<body>
+
+<!-- Slide 1: Circles -->
+<section>
+  <h1>CSS Circles (border-radius: 50%)</h1>
+  <div class="row">
+    <div class="shape-demo">
+      <div style="width: 100px; height: 100px; background: #4285f4; border-radius: 50%;"></div>
+      <p class="label">Blue Circle</p>
+    </div>
+    <div class="shape-demo">
+      <div style="width: 100px; height: 100px; background: #34a853; border-radius: 50%;"></div>
+      <p class="label">Green Circle</p>
+    </div>
+    <div class="shape-demo">
+      <div style="width: 100px; height: 100px; background: #fbbc05; border-radius: 50%;"></div>
+      <p class="label">Yellow Circle</p>
+    </div>
+    <div class="shape-demo">
+      <div style="width: 100px; height: 100px; background: #ea4335; border-radius: 50%;"></div>
+      <p class="label">Red Circle</p>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 2: Ellipses -->
+<section>
+  <h1>CSS Ellipses (border-radius: 50% on rectangles)</h1>
+  <div class="row">
+    <div class="shape-demo">
+      <div style="width: 150px; height: 80px; background: #667eea; border-radius: 50%;"></div>
+      <p class="label">Horizontal Ellipse</p>
+    </div>
+    <div class="shape-demo">
+      <div style="width: 80px; height: 150px; background: #764ba2; border-radius: 50%;"></div>
+      <p class="label">Vertical Ellipse</p>
+    </div>
+    <div class="shape-demo">
+      <div style="width: 200px; height: 100px; background: linear-gradient(to right, #ff6b6b, #feca57); border-radius: 50%;"></div>
+      <p class="label">Gradient Ellipse</p>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 3: Rounded Rectangles -->
+<section>
+  <h1>Rounded Rectangles (various radii)</h1>
+  <div class="row">
+    <div class="shape-demo">
+      <div style="width: 120px; height: 80px; background: #4285f4; border-radius: 8px;"></div>
+      <p class="label">8px radius</p>
+    </div>
+    <div class="shape-demo">
+      <div style="width: 120px; height: 80px; background: #34a853; border-radius: 16px;"></div>
+      <p class="label">16px radius</p>
+    </div>
+    <div class="shape-demo">
+      <div style="width: 120px; height: 80px; background: #fbbc05; border-radius: 24px;"></div>
+      <p class="label">24px radius</p>
+    </div>
+    <div class="shape-demo">
+      <div style="width: 120px; height: 80px; background: #ea4335; border-radius: 40px;"></div>
+      <p class="label">40px radius</p>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 4: Pills and Badges -->
+<section>
+  <h1>Pills and Badges</h1>
+  <div class="row">
+    <div class="shape-demo">
+      <div style="width: 100px; height: 40px; background: #4285f4; border-radius: 20px; display: flex; align-items: center; justify-content: center;">
+        <p style="color: white; font-size: 14px;">Button</p>
+      </div>
+      <p class="label">Pill Button</p>
+    </div>
+    <div class="shape-demo">
+      <div style="width: 30px; height: 30px; background: #ea4335; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+        <p style="color: white; font-size: 14px;">5</p>
+      </div>
+      <p class="label">Badge</p>
+    </div>
+    <div class="shape-demo">
+      <div style="width: 80px; height: 24px; background: #34a853; border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+        <p style="color: white; font-size: 12px;">Active</p>
+      </div>
+      <p class="label">Status Tag</p>
+    </div>
+  </div>
+</section>
+
+<!-- Slide 5: Circles with borders and shadows -->
+<section>
+  <h1>Styled Circles</h1>
+  <div class="row">
+    <div class="shape-demo">
+      <div style="width: 100px; height: 100px; background: white; border: 3px solid #4285f4; border-radius: 50%;"></div>
+      <p class="label">Bordered Circle</p>
+    </div>
+    <div class="shape-demo">
+      <div style="width: 100px; height: 100px; background: #667eea; border-radius: 50%; box-shadow: 4px 4px 12px rgba(0,0,0,0.3);"></div>
+      <p class="label">Shadow Circle</p>
+    </div>
+    <div class="shape-demo">
+      <div style="width: 100px; height: 100px; background: rgba(66, 133, 244, 0.5); border-radius: 50%;"></div>
+      <p class="label">Semi-transparent</p>
+    </div>
+    <div class="shape-demo">
+      <div style="width: 100px; height: 100px; background: linear-gradient(135deg, #f093fb, #f5576c); border-radius: 50%; box-shadow: 0 4px 15px rgba(245, 87, 108, 0.4);"></div>
+      <p class="label">Gradient + Shadow</p>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

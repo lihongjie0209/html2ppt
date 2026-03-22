@@ -1,0 +1,322 @@
+╔══════════════════════════════════════════════════════════════╗
+║              html2ppt Layout Debug Dump                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+━━━ Slide 1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  justify=center  align=center  row-gap=10px  col-gap=10px   pad=[30px 40px 30px 40px]bg=#004d40
+│ ├─ Text [x=173.0  y=144.0  w=374.0  h=56.0  ] "Flexbox Layout"
+│   ╰─ color=white  font-size=40pt  font-weight=bold
+│ ├─ Text [x=40.0   y=210.0  w=640.0  h=51.0  ] "Testing flex-direction, jus..."
+│   ╰─ color=#80cbc4  font-size=18pt
+
+━━━ Slide 2 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=10px  col-gap=10px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "flex-direction: row vs column"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=74.0   w=640.0  h=301.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ ├─ Box [x=0.0    y=0.0    w=315.0  h=301.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=315.0  h=21.0  ] "flex-direction: row (default)"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Box [x=0.0    y=30.0   w=315.0  h=272.0 ]
+│   ╰─ display=flex  flex-dir=row  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=8px  col-gap=8px   pad=[10px 10px 10px 10px]bg=#f5f5f5
+│ │ │ │ ├─ Box [x=10.0   y=10.0   w=34.0   h=252.0 ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=10.0   h=20.0  ] "A"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=52.0   y=10.0   w=34.0   h=252.0 ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=11.0   h=20.0  ] "B"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=94.0   y=10.0   w=33.0   h=252.0 ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=11.0   h=20.0  ] "C"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=325.0  y=0.0    w=315.0  h=301.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=315.0  h=21.0  ] "flex-direction: column"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Box [x=0.0    y=30.0   w=315.0  h=272.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=8px  col-gap=8px   pad=[10px 10px 10px 10px]bg=#f5f5f5
+│ │ │ │ ├─ Box [x=10.0   y=10.0   w=295.0  h=36.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=271.0  h=20.0  ] "A"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=10.0   y=54.0   w=295.0  h=35.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=271.0  h=21.0  ] "B"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=10.0   y=97.0   w=295.0  h=36.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=271.0  h=20.0  ] "C"
+│   ╰─ color=white  font-size=14pt
+
+━━━ Slide 3 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=10px  col-gap=10px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "justify-content variations"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Text [x=40.0   y=73.0   w=640.0  h=21.0  ] "flex-start"
+│   ╰─ color=#666666  font-size=14pt
+│ ├─ Box [x=40.0   y=103.0  w=640.0  h=38.0  ]
+│   ╰─ display=flex  justify=flex-start  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=8px  col-gap=8px   pad=[10px 10px 10px 10px]bg=#f5f5f5
+│ │ ├─ Box [x=10.0   y=10.0   w=34.0   h=18.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=10.0   h=3.0   ] "A"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=52.0   y=10.0   w=34.0   h=18.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=11.0   h=3.0   ] "B"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=94.0   y=10.0   w=33.0   h=18.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=11.0   h=3.0   ] "C"
+│   ╰─ color=white  font-size=14pt
+│ ├─ Text [x=40.0   y=151.0  w=640.0  h=21.0  ] "center"
+│   ╰─ color=#666666  font-size=14pt
+│ ├─ Box [x=40.0   y=181.0  w=640.0  h=38.0  ]
+│   ╰─ display=flex  justify=center  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=8px  col-gap=8px   pad=[10px 10px 10px 10px]bg=#f5f5f5
+│ │ ├─ Box [x=261.0  y=10.0   w=34.0   h=18.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=11.0   h=3.0   ] "A"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=303.0  y=10.0   w=34.0   h=18.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=10.0   h=3.0   ] "B"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=345.0  y=10.0   w=34.0   h=18.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=11.0   h=3.0   ] "C"
+│   ╰─ color=white  font-size=14pt
+│ ├─ Text [x=40.0   y=229.0  w=640.0  h=20.0  ] "flex-end"
+│   ╰─ color=#666666  font-size=14pt
+│ ├─ Box [x=40.0   y=259.0  w=640.0  h=38.0  ]
+│   ╰─ display=flex  justify=flex-end  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=8px  col-gap=8px   pad=[10px 10px 10px 10px]bg=#f5f5f5
+│ │ ├─ Box [x=513.0  y=10.0   w=33.0   h=18.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=11.0   h=4.0   ] "A"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=554.0  y=10.0   w=34.0   h=18.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=11.0   h=4.0   ] "B"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=596.0  y=10.0   w=34.0   h=18.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=10.0   h=4.0   ] "C"
+│   ╰─ color=white  font-size=14pt
+│ ├─ Text [x=40.0   y=307.0  w=640.0  h=20.0  ] "space-between"
+│   ╰─ color=#666666  font-size=14pt
+│ ├─ Box [x=40.0   y=337.0  w=640.0  h=38.0  ]
+│   ╰─ display=flex  justify=space-between  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=8px  col-gap=8px   pad=[10px 10px 10px 10px]bg=#f5f5f5
+│ │ ├─ Box [x=10.0   y=10.0   w=34.0   h=18.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=10.0   h=3.0   ] "A"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=303.0  y=10.0   w=34.0   h=18.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=10.0   h=3.0   ] "B"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=596.0  y=10.0   w=34.0   h=18.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=10.0   h=3.0   ] "C"
+│   ╰─ color=white  font-size=14pt
+
+━━━ Slide 4 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=10px  col-gap=10px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "align-items variations"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=74.0   w=640.0  h=301.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ ├─ Box [x=0.0    y=0.0    w=207.0  h=301.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=207.0  h=21.0  ] "align-items: flex-start"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Box [x=0.0    y=30.0   w=207.0  h=272.0 ]
+│   ╰─ display=flex  align=flex-start  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=8px  col-gap=8px  min-h=100px   pad=[10px 10px 10px 10px]bg=#f5f5f5
+│ │ │ │ ├─ Box [x=10.0   y=10.0   w=67.0   h=36.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=44.0   h=20.0  ] "Short"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=85.0   y=10.0   w=59.0   h=60.0  ]
+│   ╰─ pad=[20px 12px 20px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=20.0   w=35.0   h=20.0  ] "Tall"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=152.0  y=10.0   w=68.0   h=36.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=44.0   h=20.0  ] "Short"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=217.0  y=0.0    w=206.0  h=301.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=208.0  h=21.0  ] "align-items: center"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Box [x=0.0    y=30.0   w=206.0  h=272.0 ]
+│   ╰─ display=flex  align=center  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=8px  col-gap=8px  min-h=100px   pad=[10px 10px 10px 10px]bg=#f5f5f5
+│ │ │ │ ├─ Box [x=10.0   y=118.0  w=67.0   h=36.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=45.0   h=20.0  ] "Short"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=85.0   y=106.0  w=59.0   h=60.0  ]
+│   ╰─ pad=[20px 12px 20px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=20.0   w=35.0   h=20.0  ] "Tall"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=152.0  y=118.0  w=67.0   h=36.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=44.0   h=20.0  ] "Short"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=433.0  y=0.0    w=207.0  h=301.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=207.0  h=21.0  ] "align-items: flex-end"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Box [x=0.0    y=30.0   w=207.0  h=272.0 ]
+│   ╰─ display=flex  align=flex-end  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=8px  col-gap=8px  min-h=100px   pad=[10px 10px 10px 10px]bg=#f5f5f5
+│ │ │ │ ├─ Box [x=10.0   y=226.0  w=68.0   h=36.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=44.0   h=20.0  ] "Short"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=85.0   y=202.0  w=59.0   h=60.0  ]
+│   ╰─ pad=[20px 12px 20px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=20.0   w=35.0   h=20.0  ] "Tall"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=152.0  y=226.0  w=67.0   h=36.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=45.0   h=20.0  ] "Short"
+│   ╰─ color=white  font-size=14pt
+
+━━━ Slide 5 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=10px  col-gap=10px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "flex-grow distribution"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Text [x=40.0   y=73.0   w=640.0  h=21.0  ] "All flex-grow: 1 (equal)"
+│   ╰─ color=#666666  font-size=14pt
+│ ├─ Box [x=40.0   y=103.0  w=640.0  h=64.0  ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=8px  col-gap=8px   pad=[10px 10px 10px 10px]bg=#f5f5f5
+│ │ ├─ Box [x=10.0   y=10.0   w=201.0  h=44.0  ]
+│   ╰─ flex-grow=1   pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=178.0  h=20.0  ] "1"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=219.0  y=10.0   w=202.0  h=44.0  ]
+│   ╰─ flex-grow=1   pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=178.0  h=20.0  ] "1"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=429.0  y=10.0   w=201.0  h=44.0  ]
+│   ╰─ flex-grow=1   pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=178.0  h=20.0  ] "1"
+│   ╰─ color=white  font-size=14pt
+│ ├─ Text [x=40.0   y=177.0  w=640.0  h=20.0  ] "flex-grow: 1 / 2 / 1"
+│   ╰─ color=#666666  font-size=14pt
+│ ├─ Box [x=40.0   y=207.0  w=640.0  h=64.0  ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=8px  col-gap=8px   pad=[10px 10px 10px 10px]bg=#f5f5f5
+│ │ ├─ Box [x=10.0   y=10.0   w=159.0  h=44.0  ]
+│   ╰─ flex-grow=1   pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=136.0  h=20.0  ] "1"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=177.0  y=10.0   w=286.0  h=44.0  ]
+│   ╰─ flex-grow=2   pad=[8px 12px 8px 12px]bg=#ef5350
+│ │ │ ├─ Text [x=12.0   y=8.0    w=262.0  h=20.0  ] "2"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=471.0  y=10.0   w=159.0  h=44.0  ]
+│   ╰─ flex-grow=1   pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=136.0  h=20.0  ] "1"
+│   ╰─ color=white  font-size=14pt
+│ ├─ Text [x=40.0   y=281.0  w=640.0  h=20.0  ] "flex-grow: 1 / 3 / 1"
+│   ╰─ color=#666666  font-size=14pt
+│ ├─ Box [x=40.0   y=311.0  w=640.0  h=64.0  ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=8px  col-gap=8px   pad=[10px 10px 10px 10px]bg=#f5f5f5
+│ │ ├─ Box [x=10.0   y=10.0   w=134.0  h=44.0  ]
+│   ╰─ flex-grow=1   pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=111.0  h=21.0  ] "1"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=152.0  y=10.0   w=336.0  h=44.0  ]
+│   ╰─ flex-grow=3   pad=[8px 12px 8px 12px]bg=#66bb6a
+│ │ │ ├─ Text [x=12.0   y=8.0    w=312.0  h=21.0  ] "3"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=496.0  y=10.0   w=134.0  h=44.0  ]
+│   ╰─ flex-grow=1   pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ ├─ Text [x=12.0   y=8.0    w=111.0  h=21.0  ] "1"
+│   ╰─ color=white  font-size=14pt
+
+━━━ Slide 6 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=10px  col-gap=10px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Gap & Padding"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=74.0   w=640.0  h=301.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ ├─ Box [x=0.0    y=0.0    w=315.0  h=301.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=315.0  h=21.0  ] "gap: 5px"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Box [x=0.0    y=30.0   w=315.0  h=116.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=5px  col-gap=5px   pad=[10px 10px 10px 10px]bg=#f5f5f5
+│ │ │ │ ├─ Box [x=10.0   y=10.0   w=34.0   h=96.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=10.0   h=20.0  ] "A"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=49.0   y=10.0   w=34.0   h=96.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=11.0   h=20.0  ] "B"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=88.0   y=10.0   w=33.0   h=96.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=11.0   h=20.0  ] "C"
+│   ╰─ color=white  font-size=14pt
+│ │ │ ├─ Text [x=0.0    y=155.0  w=315.0  h=20.0  ] "gap: 20px"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Box [x=0.0    y=185.0  w=315.0  h=116.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=20px  col-gap=20px   pad=[10px 10px 10px 10px]bg=#f5f5f5
+│ │ │ │ ├─ Box [x=10.0   y=10.0   w=34.0   h=96.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=10.0   h=21.0  ] "A"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=64.0   y=10.0   w=34.0   h=96.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=11.0   h=21.0  ] "B"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=118.0  y=10.0   w=33.0   h=96.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=11.0   h=21.0  ] "C"
+│   ╰─ color=white  font-size=14pt
+│ │ ├─ Box [x=325.0  y=0.0    w=315.0  h=301.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=315.0  h=21.0  ] "padding: 5px"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Box [x=0.0    y=30.0   w=315.0  h=91.0  ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=8px  col-gap=8px   pad=[5px 5px 5px 5px]bg=#f5f5f5
+│ │ │ │ ├─ Box [x=5.0    y=5.0    w=34.0   h=81.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=10.0   h=20.0  ] "A"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=47.0   y=5.0    w=34.0   h=81.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=11.0   h=20.0  ] "B"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=89.0   y=5.0    w=33.0   h=81.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=11.0   h=20.0  ] "C"
+│   ╰─ color=white  font-size=14pt
+│ │ │ ├─ Text [x=0.0    y=130.0  w=315.0  h=20.0  ] "padding: 30px"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Box [x=0.0    y=160.0  w=315.0  h=141.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=8px  col-gap=8px   pad=[30px 30px 30px 30px]bg=#f5f5f5
+│ │ │ │ ├─ Box [x=30.0   y=30.0   w=34.0   h=81.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=10.0   h=21.0  ] "A"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=72.0   y=30.0   w=34.0   h=81.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=11.0   h=21.0  ] "B"
+│   ╰─ color=white  font-size=14pt
+│ │ │ │ ├─ Box [x=114.0  y=30.0   w=33.0   h=81.0  ]
+│   ╰─ pad=[8px 12px 8px 12px]bg=#42a5f5
+│ │ │ │ │ ├─ Text [x=12.0   y=8.0    w=11.0   h=21.0  ] "C"
+│   ╰─ color=white  font-size=14pt
+
+━━━ Legend ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Coordinates: [x, y, w, h] in points (1pt = 1/72 inch)
+  Slide 16:9 = 720×405pt, 4:3 = 720×540pt
+  Child coordinates are relative to parent group origin

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html data-layout="16x9">
+<head>
+  <style>
+    section { padding: 30px 40px; display: flex; flex-direction: column; gap: 10px; }
+    .title-slide { background-color: #006064; justify-content: center; align-items: center; }
+    .title-slide h1 { color: white; font-size: 40pt; }
+    .title-slide p { color: #80deea; font-size: 18pt; }
+    h2 { font-size: 24pt; color: #006064; }
+    .row { display: flex; gap: 15px; flex: 1; }
+    .col { flex: 1; display: flex; flex-direction: column; gap: 8px; }
+    .label { font-size: 13pt; color: #666666; font-weight: bold; }
+    .box { padding: 12px; background-color: #e0f7fa; border-radius: 6px; }
+    .box p { font-size: 14pt; }
+  </style>
+</head>
+<body>
+
+  <!-- Slide 1: Title -->
+  <section class="title-slide">
+    <h1>Long Text &amp; Wrapping</h1>
+    <p>Testing text overflow, wrapping and multi-line behavior</p>
+  </section>
+
+  <!-- Slide 2: Long paragraphs -->
+  <section>
+    <h2>Long Paragraph Text</h2>
+    <div class="box">
+      <p>This is a long paragraph that tests how the layout engine handles text wrapping within a container. The text should automatically wrap to the next line when it reaches the edge of the container. Text measurement needs to be accurate to prevent overflow or excessive whitespace. This paragraph contains both English text and some numbers like 12345 to test mixed content wrapping behavior.</p>
+    </div>
+    <div class="box">
+      <p>这是一段较长的中文测试文本，用于验证中文字符的换行行为。在排版引擎中，中文字符每个都可以作为换行点，但是连续的标点符号和数字应该保持在同一行内。测试数据：2024年第四季度营收增长15.3%，达到人民币1,234万元。</p>
+    </div>
+  </section>
+
+  <!-- Slide 3: Narrow columns with long text -->
+  <section>
+    <h2>Narrow Columns</h2>
+    <div class="row">
+      <div class="col">
+        <div class="box">
+          <p class="label">Column 1</p>
+          <p>This text is in a narrow column and should wrap nicely without breaking the layout.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="box">
+          <p class="label">Column 2</p>
+          <p>Second column with different text length for comparison testing.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="box">
+          <p class="label">Column 3</p>
+          <p>Third column text that is slightly longer than the others to test uneven heights.</p>
+        </div>
+      </div>
+      <div class="col">
+        <div class="box">
+          <p class="label">Column 4</p>
+          <p>Short text.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 4: Mixed short and long content -->
+  <section>
+    <h2>Content Length Variation</h2>
+    <div class="row">
+      <div style="flex: 1; background-color: #e8f5e9; padding: 15px; border-radius: 8px; display: flex; flex-direction: column; gap: 5px;">
+        <p class="label">Short</p>
+        <p style="font-size: 14pt;">OK</p>
+      </div>
+      <div style="flex: 1; background-color: #e3f2fd; padding: 15px; border-radius: 8px; display: flex; flex-direction: column; gap: 5px;">
+        <p class="label">Medium</p>
+        <p style="font-size: 14pt;">This card has a moderate amount of text content.</p>
+      </div>
+      <div style="flex: 1; background-color: #fff3e0; padding: 15px; border-radius: 8px; display: flex; flex-direction: column; gap: 5px;">
+        <p class="label">Long</p>
+        <p style="font-size: 14pt;">This card contains significantly more text than the others. It should handle wrapping and height adjustment properly within the flex container, respecting the available width.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 5: CJK long text in various configurations -->
+  <section>
+    <h2>CJK 长文本测试</h2>
+    <div class="row">
+      <div style="flex: 1; background-color: #fce4ec; padding: 12px; border-radius: 6px; display: flex; flex-direction: column; gap: 5px;">
+        <p style="font-size: 14pt; font-weight: bold;">产品规划</p>
+        <p style="font-size: 12pt;">根据市场调研结果和用户反馈，我们将在下一季度重点推进以下功能的开发和优化工作。</p>
+      </div>
+      <div style="flex: 1; background-color: #f3e5f5; padding: 12px; border-radius: 6px; display: flex; flex-direction: column; gap: 5px;">
+        <p style="font-size: 14pt; font-weight: bold;">技术架构</p>
+        <p style="font-size: 12pt;">采用微服务架构设计，使用Spring Cloud Alibaba作为底层框架，实现服务注册与发现。</p>
+      </div>
+      <div style="flex: 1; background-color: #e8eaf6; padding: 12px; border-radius: 6px; display: flex; flex-direction: column; gap: 5px;">
+        <p style="font-size: 14pt; font-weight: bold;">质量保证</p>
+        <p style="font-size: 12pt;">建立完善的自动化测试体系，包括单元测试、集成测试和端到端测试，确保代码质量。</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

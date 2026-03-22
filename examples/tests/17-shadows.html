@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html data-layout="16x9">
+<head>
+  <style>
+    section { padding: 30px 40px; display: flex; flex-direction: column; gap: 20px; }
+    h2 { font-size: 24pt; color: #1a237e; }
+    .title-slide { background-color: #1a237e; justify-content: center; align-items: center; }
+    .title-slide h1 { color: white; font-size: 40pt; }
+    .title-slide p { color: #90caf9; font-size: 18pt; }
+    .row { display: flex; gap: 20px; flex: 1; }
+    .col { display: flex; flex-direction: column; gap: 10px; flex: 1; }
+    .label { font-size: 12pt; color: #666666; margin-bottom: 5px; }
+    
+    /* Card styles */
+    .card {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+    }
+    .card h3 { font-size: 16pt; color: #333333; margin-bottom: 10px; }
+    .card p { font-size: 12pt; color: #666666; }
+    
+    /* Shadow variations */
+    .shadow-sm { box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); }
+    .shadow-md { box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3); }
+    .shadow-lg { box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.4); }
+    .shadow-xl { box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5); }
+    
+    /* Colored shadows */
+    .shadow-blue { box-shadow: 4px 4px 12px rgba(33, 150, 243, 0.5); }
+    .shadow-red { box-shadow: 4px 4px 12px rgba(244, 67, 54, 0.5); }
+    .shadow-green { box-shadow: 4px 4px 12px rgba(76, 175, 80, 0.5); }
+  </style>
+</head>
+<body>
+
+  <!-- Slide 1: Title -->
+  <section class="title-slide">
+    <h1>Box Shadow Test</h1>
+    <p>Testing CSS box-shadow rendering in PowerPoint</p>
+  </section>
+
+  <!-- Slide 2: Shadow Sizes -->
+  <section style="background-color: #f5f5f5;">
+    <h2>Shadow Sizes</h2>
+    <div class="row">
+      <div class="col">
+        <p class="label">Small (2px 2px 4px)</p>
+        <div class="card shadow-sm">
+          <h3>Small Shadow</h3>
+          <p>Subtle shadow for cards</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">Medium (4px 4px 8px)</p>
+        <div class="card shadow-md">
+          <h3>Medium Shadow</h3>
+          <p>Standard card shadow</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">Large (6px 6px 16px)</p>
+        <div class="card shadow-lg">
+          <h3>Large Shadow</h3>
+          <p>Elevated card style</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">Extra Large (10px 10px 30px)</p>
+        <div class="card shadow-xl">
+          <h3>XL Shadow</h3>
+          <p>Heavy shadow effect</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 3: Colored Shadows -->
+  <section style="background-color: #f5f5f5;">
+    <h2>Colored Shadows</h2>
+    <div class="row">
+      <div class="col">
+        <p class="label">Blue Shadow</p>
+        <div class="card shadow-blue">
+          <h3>Blue Glow</h3>
+          <p>rgba(33, 150, 243, 0.5)</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">Red Shadow</p>
+        <div class="card shadow-red">
+          <h3>Red Glow</h3>
+          <p>rgba(244, 67, 54, 0.5)</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">Green Shadow</p>
+        <div class="card shadow-green">
+          <h3>Green Glow</h3>
+          <p>rgba(76, 175, 80, 0.5)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 4: Shadow with Hex Colors -->
+  <section style="background-color: #eeeeee;">
+    <h2>Shadow with Named/Hex Colors</h2>
+    <div class="row">
+      <div class="col">
+        <p class="label">Named Color (black)</p>
+        <div class="card" style="box-shadow: 5px 5px 15px black;">
+          <h3>Black Shadow</h3>
+          <p>Using "black" keyword</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">Hex Color (#333)</p>
+        <div class="card" style="box-shadow: 5px 5px 15px #333333;">
+          <h3>Gray Shadow</h3>
+          <p>Using hex #333333</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">Long Hex (#FF5722)</p>
+        <div class="card" style="box-shadow: 5px 5px 15px #FF5722;">
+          <h3>Orange Shadow</h3>
+          <p>Deep orange hex</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 5: No Shadow vs Shadow Comparison -->
+  <section style="background-color: #e0e0e0;">
+    <h2>Shadow Comparison</h2>
+    <div class="row">
+      <div class="col">
+        <p class="label">No Shadow</p>
+        <div class="card">
+          <h3>Flat Card</h3>
+          <p>Without any shadow, the card looks flat and embedded in the background.</p>
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">With Shadow</p>
+        <div class="card shadow-lg">
+          <h3>Elevated Card</h3>
+          <p>With shadow, the card appears elevated and floating above the background.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

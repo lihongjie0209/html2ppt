@@ -1,0 +1,180 @@
+╔══════════════════════════════════════════════════════════════╗
+║              html2ppt Layout Debug Dump                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+━━━ Slide 1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  justify=center  align=center  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]bg=#311b92
+│ ├─ Text [x=107.0  y=154.0  w=506.0  h=56.0  ] "Opacity & RGBA Test"
+│   ╰─ color=white  font-size=40pt  font-weight=bold
+│ ├─ Text [x=110.0  y=225.0  w=500.0  h=26.0  ] "Testing transparency in bac..."
+│   ╰─ color=rgba(255,255,255,0.7)  font-size=18pt
+
+━━━ Slide 2 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "CSS Opacity Property"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=79.0   w=640.0  h=296.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=15px  col-gap=15px
+│ │ ├─ Box [x=0.0    y=0.0    w=116.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=116.0  h=18.0  ] "opacity: 1"
+│   ╰─ color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=27.0   w=116.0  h=63.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=#2196f3
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=76.0   h=23.0  ] "100%"
+│   ╰─ color=white  font-size=16pt
+│ │ ├─ Box [x=131.0  y=0.0    w=116.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=116.0  h=18.0  ] "opacity: 0.75"
+│   ╰─ color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=27.0   w=116.0  h=63.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=#2196f3
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=76.0   h=23.0  ] "75%"
+│   ╰─ color=white  font-size=16pt
+│ │ ├─ Box [x=262.0  y=0.0    w=116.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=116.0  h=18.0  ] "opacity: 0.5"
+│   ╰─ color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=27.0   w=116.0  h=63.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=#2196f3
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=76.0   h=23.0  ] "50%"
+│   ╰─ color=white  font-size=16pt
+│ │ ├─ Box [x=393.0  y=0.0    w=116.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=116.0  h=18.0  ] "opacity: 0.25"
+│   ╰─ color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=27.0   w=116.0  h=63.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=#2196f3
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=76.0   h=23.0  ] "25%"
+│   ╰─ color=#333333  font-size=16pt
+│ │ ├─ Box [x=524.0  y=0.0    w=116.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=116.0  h=18.0  ] "opacity: 0.1"
+│   ╰─ color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=27.0   w=116.0  h=63.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=#2196f3
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=76.0   h=23.0  ] "10%"
+│   ╰─ color=#333333  font-size=16pt
+
+━━━ Slide 3 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "RGBA Background Colors"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=79.0   w=640.0  h=296.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=15px  col-gap=15px
+│ │ ├─ Box [x=0.0    y=0.0    w=116.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=116.0  h=35.0  ] "rgba(76,175,80,1)"
+│   ╰─ color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=44.0   w=116.0  h=85.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=rgba(76,175,80,1)
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=76.0   h=45.0  ] "Alpha 1.0"
+│   ╰─ color=white  font-size=16pt
+│ │ ├─ Box [x=131.0  y=0.0    w=116.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=116.0  h=18.0  ] "rgba(...,0.75)"
+│   ╰─ color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=27.0   w=116.0  h=85.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=rgba(76,175,80,0.75)
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=76.0   h=46.0  ] "Alpha 0.75"
+│   ╰─ color=white  font-size=16pt
+│ │ ├─ Box [x=262.0  y=0.0    w=116.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=116.0  h=18.0  ] "rgba(...,0.5)"
+│   ╰─ color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=27.0   w=116.0  h=85.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=rgba(76,175,80,0.5)
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=76.0   h=46.0  ] "Alpha 0.5"
+│   ╰─ color=#333333  font-size=16pt
+│ │ ├─ Box [x=393.0  y=0.0    w=116.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=116.0  h=18.0  ] "rgba(...,0.25)"
+│   ╰─ color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=27.0   w=116.0  h=85.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=rgba(76,175,80,0.25)
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=76.0   h=46.0  ] "Alpha 0.25"
+│   ╰─ color=#333333  font-size=16pt
+│ │ ├─ Box [x=524.0  y=0.0    w=116.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=116.0  h=18.0  ] "rgba(...,0.1)"
+│   ╰─ color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=27.0   w=116.0  h=85.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=rgba(76,175,80,0.1)
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=76.0   h=46.0  ] "Alpha 0.1"
+│   ╰─ color=#333333  font-size=16pt
+
+━━━ Slide 4 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Transparent Background"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=79.0   w=640.0  h=296.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=15px  col-gap=15px
+│ │ ├─ Box [x=0.0    y=0.0    w=313.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=313.0  h=18.0  ] "background: transparent"
+│   ╰─ color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=27.0   w=313.0  h=63.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=transparent
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=273.0  h=23.0  ] "Border only, no fill"
+│   ╰─ color=#333333  font-size=16pt
+│ │ ├─ Box [x=328.0  y=0.0    w=312.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=313.0  h=18.0  ] "Overlay with rgba(0,0,0,0.5)"
+│   ╰─ color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=27.0   w=312.0  h=270.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  position=relative
+│ │ │ │ ├─ Box [x=0.0    y=0.0    w=175.0  h=270.0 ]
+│   ╰─ display=flex  flex-dir=column  justify=center  align=center   pad=[15px 15px 15px 15px]bg=rgba(0,0,0,0.5)
+│ │ │ │ │ ├─ Text [x=29.0   y=115.0  w=118.0  h=23.0  ] "Dark Overlay"
+│   ╰─ color=white  font-size=16pt
+│ │ │ │ │ ├─ Text [x=15.0   y=137.0  w=146.0  h=17.0  ] "50% black background"
+│   ╰─ color=rgba(255,255,255,0.7)  font-size=12pt
+
+━━━ Slide 5 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Practical Use Cases"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=79.0   w=640.0  h=296.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=15px  col-gap=15px
+│ │ ├─ Box [x=0.0    y=0.0    w=313.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=313.0  h=18.0  ] "Shadow Effect with RGBA"
+│   ╰─ color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=27.0   w=313.0  h=270.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=5px  col-gap=5px
+│ │ │ │ ├─ Box [x=0.0    y=0.0    w=313.0  h=110.0 ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=rgba(0,0,0,0.1)
+│ │ │ │ │ ├─ Box [x=20.0   y=20.0   w=273.0  h=70.0  ]
+│   ╰─ pad=[15px 15px 15px 15px]bg=white
+│ │ │ │ │ │ ├─ Text [x=15.0   y=15.0   w=243.0  h=23.0  ] "Card with Shadow"
+│   ╰─ color=#333333  font-size=16pt  font-weight=bold
+│ │ │ │ │ │ ├─ Text [x=15.0   y=37.0   w=243.0  h=18.0  ] "The rgba shadow creates depth"
+│   ╰─ color=#757575  font-size=12pt
+│ │ ├─ Box [x=328.0  y=0.0    w=312.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=313.0  h=18.0  ] "Gradient-like Effect"
+│   ╰─ color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=27.0   w=312.0  h=270.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0
+│ │ │ │ ├─ Box [x=0.0    y=0.0    w=312.0  h=60.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=rgba(156,39,176,0.9)
+│ │ │ │ │ ├─ Text [x=20.0   y=20.0   w=273.0  h=20.0  ] "90% Opacity"
+│   ╰─ color=white  font-size=14pt  text-align=center
+│ │ │ │ ├─ Box [x=0.0    y=60.0   w=312.0  h=60.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=rgba(156,39,176,0.5)
+│ │ │ │ │ ├─ Text [x=20.0   y=20.0   w=273.0  h=20.0  ] "50% Opacity"
+│   ╰─ color=#333333  font-size=14pt  text-align=center
+│ │ │ │ ├─ Box [x=0.0    y=119.0  w=312.0  h=59.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=rgba(156,39,176,0.2)
+│ │ │ │ │ ├─ Text [x=20.0   y=20.0   w=273.0  h=21.0  ] "20% Opacity"
+│   ╰─ color=#666666  font-size=14pt  text-align=center
+
+━━━ Legend ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Coordinates: [x, y, w, h] in points (1pt = 1/72 inch)
+  Slide 16:9 = 720×405pt, 4:3 = 720×540pt
+  Child coordinates are relative to parent group origin

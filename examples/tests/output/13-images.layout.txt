@@ -1,0 +1,196 @@
+╔══════════════════════════════════════════════════════════════╗
+║              html2ppt Layout Debug Dump                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+━━━ Slide 1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  justify=center  align=center  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]bg=#1565c0
+│ ├─ Text [x=212.0  y=154.0  w=296.0  h=56.0  ] "Images Test"
+│   ╰─ color=white  font-size=40pt  font-weight=bold
+│ ├─ Text [x=116.0  y=225.0  w=488.0  h=26.0  ] "Testing <img> element rende..."
+│   ╰─ color=#bbdefb  font-size=18pt
+
+━━━ Slide 2 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Basic Images"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=79.0   w=640.0  h=296.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=15px  col-gap=15px
+│ │ ├─ Box [x=0.0    y=0.0    w=203.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=204.0  h=21.0  ] "Simple image (no sizing)"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Box [x=0.0    y=30.0   w=203.0  h=100.0 ]
+│   ╰─ display=flex  justify=center  align=center
+│ │ │ │ ├─ Image [x=52.0   y=0.0    w=100.0  h=100.0 ]
+│ │ ├─ Box [x=218.0  y=0.0    w=204.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=204.0  h=21.0  ] "Rectangle image"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Box [x=0.0    y=30.0   w=204.0  h=100.0 ]
+│   ╰─ display=flex  justify=center  align=center
+│ │ │ │ ├─ Image [x=2.0    y=0.0    w=200.0  h=100.0 ]
+│ │ ├─ Box [x=437.0  y=0.0    w=203.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=204.0  h=21.0  ] "PNG with transparency"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Box [x=0.0    y=30.0   w=203.0  h=100.0 ]
+│   ╰─ display=flex  justify=center  align=center
+│ │ │ │ ├─ Image [x=52.0   y=0.0    w=100.0  h=100.0 ]
+
+━━━ Slide 3 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Sized Images"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=79.0   w=640.0  h=296.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=15px  col-gap=15px
+│ │ ├─ Box [x=0.0    y=0.0    w=149.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=149.0  h=21.0  ] "width: 80px"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Image [x=0.0    y=30.0   w=80.0   h=80.0  ]
+│   ╰─ width=80px
+│ │ ├─ Box [x=164.0  y=0.0    w=149.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=150.0  h=21.0  ] "width: 120px"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Image [x=0.0    y=30.0   w=120.0  h=120.0 ]
+│   ╰─ width=120px
+│ │ ├─ Box [x=328.0  y=0.0    w=148.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=150.0  h=40.0  ] "width: 50px; height: 50px"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Image [x=0.0    y=49.0   w=50.0   h=50.0  ]
+│   ╰─ width=50px  height=50px
+│ │ ├─ Box [x=491.0  y=0.0    w=149.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=149.0  h=21.0  ] "max-width: 100px"
+│   ╰─ color=#666666  font-size=14pt
+│ │ │ ├─ Image [x=0.0    y=30.0   w=100.0  h=100.0 ]
+│   ╰─ max-w=100px
+
+━━━ Slide 4 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Images in Flex Layout"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=79.0   w=640.0  h=296.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=15px  col-gap=15px
+│ │ ├─ Box [x=0.0    y=0.0    w=313.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  justify=center  align=center  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Image [x=76.0   y=71.0   w=160.0  h=120.0 ]
+│ │ │ ├─ Text [x=58.0   y=200.0  w=197.0  h=26.0  ] "Centered in column"
+│   ╰─ font-size=18pt
+│ │ ├─ Box [x=328.0  y=0.0    w=312.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Box [x=0.0    y=0.0    w=312.0  h=80.0  ]
+│   ╰─ display=flex  flex-wrap=wrap  row-gap=10px  col-gap=10px
+│ │ │ │ ├─ Image [x=0.0    y=0.0    w=80.0   h=80.0  ]
+│ │ │ │ ├─ Image [x=90.0   y=0.0    w=80.0   h=80.0  ]
+│ │ │ │ ├─ Image [x=180.0  y=0.0    w=80.0   h=80.0  ]
+│ │ │ ├─ Text [x=0.0    y=90.0   w=313.0  h=26.0  ] "Multiple images in row"
+│   ╰─ font-size=18pt
+
+━━━ Slide 5 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Profile Cards"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=79.0   w=640.0  h=296.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=15px  col-gap=15px
+│ │ ├─ Box [x=0.0    y=0.0    w=351.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=10px  col-gap=10px   pad=[15px 15px 15px 15px]bg=#f5f5f5
+│ │ │ ├─ Box [x=15.0   y=15.0   w=321.0  h=60.0  ]
+│   ╰─ display=flex  align=center  row-gap=15px  col-gap=15px
+│ │ │ │ ├─ Image [x=0.0    y=0.0    w=60.0   h=60.0  ]
+│   ╰─ width=60px  height=60px
+│ │ │ │ ├─ Box [x=75.0   y=8.0    w=144.0  h=44.0  ]
+│   ╰─ display=flex  flex-dir=column  row-gap=5px  col-gap=5px
+│ │ │ │ │ ├─ Text [x=0.0    y=0.0    w=145.0  h=21.0  ] "Alice Chen"
+│   ╰─ font-size=14pt  font-weight=bold
+│ │ │ │ │ ├─ Text [x=0.0    y=24.0   w=145.0  h=20.0  ] "Software Engineer"
+│   ╰─ color=#757575  font-size=14pt
+│ │ │ ├─ Text [x=15.0   y=85.0   w=321.0  h=21.0  ] "Working on the new dashboar..."
+│   ╰─ font-size=14pt
+│ │ ├─ Box [x=366.0  y=0.0    w=300.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=10px  col-gap=10px   pad=[15px 15px 15px 15px]bg=#f5f5f5
+│ │ │ ├─ Box [x=15.0   y=15.0   w=270.0  h=60.0  ]
+│   ╰─ display=flex  align=center  row-gap=15px  col-gap=15px
+│ │ │ │ ├─ Image [x=0.0    y=0.0    w=60.0   h=60.0  ]
+│   ╰─ width=60px  height=60px
+│ │ │ │ ├─ Box [x=75.0   y=8.0    w=127.0  h=44.0  ]
+│   ╰─ display=flex  flex-dir=column  row-gap=5px  col-gap=5px
+│ │ │ │ │ ├─ Text [x=0.0    y=0.0    w=128.0  h=21.0  ] "Bob Wang"
+│   ╰─ font-size=14pt  font-weight=bold
+│ │ │ │ │ ├─ Text [x=0.0    y=24.0   w=128.0  h=20.0  ] "Product Manager"
+│   ╰─ color=#757575  font-size=14pt
+│ │ │ ├─ Text [x=15.0   y=85.0   w=271.0  h=21.0  ] "Leading the Q2 roadmap plan..."
+│   ╰─ font-size=14pt
+
+━━━ Slide 6 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Product Showcase"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=79.0   w=640.0  h=296.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=20px  col-gap=20px
+│ │ ├─ Box [x=0.0    y=0.0    w=200.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px   pad=[15px 15px 15px 15px]bg=white
+│ │ │ ├─ Image [x=15.0   y=15.0   w=160.0  h=120.0 ]
+│ │ │ ├─ Text [x=15.0   y=145.0  w=170.0  h=23.0  ] "Widget Pro"
+│   ╰─ font-size=16pt  font-weight=bold  text-align=center
+│ │ │ ├─ Text [x=15.0   y=177.0  w=170.0  h=20.0  ] "$49.99"
+│   ╰─ color=#4caf50  font-size=14pt  text-align=center
+│ │ ├─ Box [x=220.0  y=0.0    w=200.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px   pad=[15px 15px 15px 15px]bg=white
+│ │ │ ├─ Image [x=15.0   y=15.0   w=160.0  h=120.0 ]
+│ │ │ ├─ Text [x=15.0   y=145.0  w=170.0  h=23.0  ] "Gadget Plus"
+│   ╰─ font-size=16pt  font-weight=bold  text-align=center
+│ │ │ ├─ Text [x=15.0   y=177.0  w=170.0  h=20.0  ] "$79.99"
+│   ╰─ color=#4caf50  font-size=14pt  text-align=center
+│ │ ├─ Box [x=440.0  y=0.0    w=200.0  h=296.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px   pad=[15px 15px 15px 15px]bg=white
+│ │ │ ├─ Image [x=15.0   y=15.0   w=160.0  h=120.0 ]
+│ │ │ ├─ Text [x=15.0   y=145.0  w=170.0  h=23.0  ] "Device Max"
+│   ╰─ font-size=16pt  font-weight=bold  text-align=center
+│ │ │ ├─ Text [x=15.0   y=177.0  w=170.0  h=20.0  ] "$129.99"
+│   ╰─ color=#4caf50  font-size=14pt  text-align=center
+
+━━━ Slide 7 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=15px  col-gap=15px   pad=[30px 40px 30px 40px]
+│ ├─ Box [x=40.0   y=30.0   w=640.0  h=60.0  ]
+│   ╰─ display=flex  justify=space-between  align=center   pad=[10px 0 10px 0]
+│ │ ├─ Image [x=0.0    y=10.0   w=133.0  h=40.0  ]
+│   ╰─ height=40px
+│ │ ├─ Box [x=373.0  y=20.0   w=267.0  h=20.0  ]
+│   ╰─ display=flex  row-gap=20px  col-gap=20px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=35.0   h=20.0  ] "Home"
+│   ╰─ color=#1565c0  font-size=14pt
+│ │ │ ├─ Text [x=55.0   y=0.0    w=70.0   h=20.0  ] "Products"
+│   ╰─ color=#1565c0  font-size=14pt
+│ │ │ ├─ Text [x=143.0  y=0.0    w=44.0   h=20.0  ] "About"
+│   ╰─ color=#1565c0  font-size=14pt
+│ │ │ ├─ Text [x=207.0  y=0.0    w=61.0   h=20.0  ] "Contact"
+│   ╰─ color=#1565c0  font-size=14pt
+│ ├─ Text [x=40.0   y=105.0  w=640.0  h=34.0  ] "Company Overview"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=154.0  w=640.0  h=221.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=15px  col-gap=15px
+│ │ ├─ Box [x=0.0    y=0.0    w=313.0  h=221.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=313.0  h=77.0  ] "Our company specializes in ..."
+│   ╰─ font-size=18pt
+│ │ │ ├─ Text [x=0.0    y=85.0   w=313.0  h=76.0  ] "Founded in 2020, we've grow..."
+│   ╰─ font-size=18pt
+│ │ ├─ Box [x=328.0  y=0.0    w=312.0  h=221.0 ]
+│   ╰─ display=flex  flex-dir=column  justify=center  align=center  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Image [x=56.0   y=36.0   w=200.0  h=150.0 ]
+│   ╰─ width=200px
+
+━━━ Legend ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Coordinates: [x, y, w, h] in points (1pt = 1/72 inch)
+  Slide 16:9 = 720×405pt, 4:3 = 720×540pt
+  Child coordinates are relative to parent group origin

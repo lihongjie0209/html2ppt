@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html data-layout="16x9">
+<head>
+  <style>
+    section { padding: 30px 40px; display: flex; flex-direction: column; gap: 15px; }
+    .title-slide { background-color: #311b92; justify-content: center; align-items: center; }
+    .title-slide h1 { color: white; font-size: 40pt; }
+    .title-slide p { color: #b39ddb; font-size: 18pt; }
+    h2 { font-size: 24pt; color: #311b92; }
+    .row { display: flex; gap: 15px; flex: 1; }
+    .card {
+      flex: 1; display: flex; flex-direction: column;
+      padding: 20px; border-radius: 10px; gap: 8px;
+    }
+    .card-light { background-color: #f3e5f5; }
+    .card-blue { background-color: #e3f2fd; }
+    .card-green { background-color: #e8f5e9; }
+    .card-orange { background-color: #fff3e0; }
+    .card-title { font-size: 16pt; font-weight: bold; color: #333333; }
+    .card-value { font-size: 28pt; font-weight: bold; }
+    .card-desc { font-size: 12pt; color: #757575; }
+    .profile-card {
+      flex: 1; display: flex; flex-direction: column;
+      align-items: center; padding: 25px;
+      background-color: #fafafa; border-radius: 12px; gap: 10px;
+    }
+    .avatar {
+      width: 60px; height: 60px; background-color: #90caf9;
+      border-radius: 30px;
+    }
+    .name { font-size: 18pt; font-weight: bold; color: #1a237e; }
+    .role { font-size: 14pt; color: #757575; }
+    .stat-row { display: flex; gap: 20px; }
+    .stat { display: flex; flex-direction: column; align-items: center; }
+    .stat-num { font-size: 20pt; font-weight: bold; color: #1a237e; }
+    .stat-label { font-size: 11pt; color: #9e9e9e; }
+  </style>
+</head>
+<body>
+
+  <!-- Slide 1: Title -->
+  <section class="title-slide">
+    <h1>Cards &amp; Grid Layouts</h1>
+    <p>Testing card patterns and grid-like arrangements</p>
+  </section>
+
+  <!-- Slide 2: 4-column metric cards -->
+  <section>
+    <h2>Metric Dashboard</h2>
+    <div class="row">
+      <div class="card card-light">
+        <p class="card-title">Revenue</p>
+        <p class="card-value" style="color: #7b1fa2;">$2.4M</p>
+        <p class="card-desc">+12% vs last quarter</p>
+      </div>
+      <div class="card card-blue">
+        <p class="card-title">Users</p>
+        <p class="card-value" style="color: #1565c0;">48.2K</p>
+        <p class="card-desc">+8.5% growth</p>
+      </div>
+      <div class="card card-green">
+        <p class="card-title">Conversion</p>
+        <p class="card-value" style="color: #2e7d32;">3.8%</p>
+        <p class="card-desc">+0.5pp improvement</p>
+      </div>
+      <div class="card card-orange">
+        <p class="card-title">NPS Score</p>
+        <p class="card-value" style="color: #e65100;">72</p>
+        <p class="card-desc">Industry avg: 45</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 3: 2x2 content grid -->
+  <section>
+    <h2>Feature Grid</h2>
+    <div class="row">
+      <div class="card card-blue">
+        <p class="card-title">Fast Compilation</p>
+        <p style="font-size: 14pt;">HTML+CSS source files compile to .pptx in under 2 seconds for typical presentations.</p>
+      </div>
+      <div class="card card-green">
+        <p class="card-title">Flexbox Layout</p>
+        <p style="font-size: 14pt;">Full CSS flexbox support via Yoga engine including gap, wrap, grow and shrink.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="card card-orange">
+        <p class="card-title">Rich Text</p>
+        <p style="font-size: 14pt;">Bold, italic, underline with mixed CJK/Latin text and custom fonts.</p>
+      </div>
+      <div class="card card-light">
+        <p class="card-title">Debug Mode</p>
+        <p style="font-size: 14pt;">Layout debug output shows computed positions for every element.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 4: 3-column profile cards -->
+  <section>
+    <h2>Team Members</h2>
+    <div class="row">
+      <div class="profile-card">
+        <div class="avatar"></div>
+        <p class="name">Alice Chen</p>
+        <p class="role">Tech Lead</p>
+        <div class="stat-row">
+          <div class="stat"><p class="stat-num">142</p><p class="stat-label">Commits</p></div>
+          <div class="stat"><p class="stat-num">38</p><p class="stat-label">PRs</p></div>
+        </div>
+      </div>
+      <div class="profile-card">
+        <div class="avatar" style="background-color: #a5d6a7;"></div>
+        <p class="name">Bob Wang</p>
+        <p class="role">Backend Dev</p>
+        <div class="stat-row">
+          <div class="stat"><p class="stat-num">98</p><p class="stat-label">Commits</p></div>
+          <div class="stat"><p class="stat-num">25</p><p class="stat-label">PRs</p></div>
+        </div>
+      </div>
+      <div class="profile-card">
+        <div class="avatar" style="background-color: #ef9a9a;"></div>
+        <p class="name">Carol Li</p>
+        <p class="role">Designer</p>
+        <div class="stat-row">
+          <div class="stat"><p class="stat-num">67</p><p class="stat-label">Commits</p></div>
+          <div class="stat"><p class="stat-num">15</p><p class="stat-label">PRs</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 5: Nested cards with borders -->
+  <section>
+    <h2>Project Status</h2>
+    <div class="row">
+      <div class="card" style="background-color: #ffffff; border: 2px solid #4caf50;">
+        <p class="card-title" style="color: #2e7d32;">On Track</p>
+        <p style="font-size: 14pt;">Frontend Redesign</p>
+        <p style="font-size: 14pt;">API Migration</p>
+        <p style="font-size: 14pt;">Database Optimization</p>
+      </div>
+      <div class="card" style="background-color: #ffffff; border: 2px solid #ff9800;">
+        <p class="card-title" style="color: #e65100;">At Risk</p>
+        <p style="font-size: 14pt;">Mobile App v3</p>
+        <p style="font-size: 14pt;">Payment Gateway</p>
+      </div>
+      <div class="card" style="background-color: #ffffff; border: 2px solid #f44336;">
+        <p class="card-title" style="color: #c62828;">Blocked</p>
+        <p style="font-size: 14pt;">Third-party Integration</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

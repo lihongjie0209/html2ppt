@@ -1,0 +1,87 @@
+╔══════════════════════════════════════════════════════════════╗
+║              html2ppt Layout Debug Dump                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+━━━ Slide 1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  justify=center  align=center   pad=[40px 50px 40px 50px]bg=#003366
+│ ├─ Text [x=288.0  y=164.0  w=144.0  h=52.0  ] "项目汇报"
+│   ╰─ color=white  font-size=36pt  font-weight=bold
+│ ├─ Text [x=295.0  y=215.0  w=130.0  h=26.0  ] "2024年第四季度"
+│   ╰─ color=#99ccff  font-size=18pt
+
+━━━ Slide 2 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column   pad=[40px 50px 40px 50px]
+│ ├─ Text [x=50.0   y=40.0   w=620.0  h=40.0  ] "项目进展"
+│   ╰─ color=#003366  font-size=28pt  font-weight=bold
+│ ├─ Box [x=50.0   y=79.0   w=620.0  h=286.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=20px  col-gap=20px
+│ │ ├─ Box [x=0.0    y=0.0    w=193.0  h=286.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=8px  col-gap=8px   pad=[20px 20px 20px 20px]bg=#f0f4f8
+│ │ │ ├─ Text [x=20.0   y=20.0   w=154.0  h=26.0  ] "完成率"
+│   ╰─ font-size=18pt
+│ │ │ ├─ Text [x=20.0   y=53.0   w=154.0  h=46.0  ] "95%"
+│   ╰─ color=#2e7d32  font-size=32pt  font-weight=bold
+│ │ ├─ Box [x=213.0  y=0.0    w=194.0  h=286.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=8px  col-gap=8px   pad=[20px 20px 20px 20px]bg=#f0f4f8
+│ │ │ ├─ Text [x=20.0   y=20.0   w=154.0  h=26.0  ] "待处理"
+│   ╰─ font-size=18pt
+│ │ │ ├─ Text [x=20.0   y=53.0   w=154.0  h=46.0  ] "3项"
+│   ╰─ color=#e65100  font-size=32pt  font-weight=bold
+│ │ ├─ Box [x=427.0  y=0.0    w=193.0  h=286.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=8px  col-gap=8px   pad=[20px 20px 20px 20px]bg=#f0f4f8
+│ │ │ ├─ Text [x=20.0   y=20.0   w=154.0  h=26.0  ] "风险项"
+│   ╰─ font-size=18pt
+│ │ │ ├─ Text [x=20.0   y=53.0   w=154.0  h=46.0  ] "1项"
+│   ╰─ color=#c62828  font-size=32pt  font-weight=bold
+
+━━━ Slide 3 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column   pad=[40px 50px 40px 50px]
+│ ├─ Text [x=50.0   y=40.0   w=620.0  h=40.0  ] "关键成果"
+│   ╰─ color=#003366  font-size=28pt  font-weight=bold
+│ ├─ Box [x=50.0   y=79.0   w=620.0  h=143.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=15px  col-gap=15px
+│ │ ├─ Box [x=0.0    y=0.0    w=303.0  h=143.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=6px  col-gap=6px   pad=[15px 15px 15px 15px]bg=#e3f2fd
+│ │ │ ├─ Text [x=15.0   y=15.0   w=273.0  h=26.0  ] "前端重构"
+│   ╰─ font-size=18pt
+│ │ │ ├─ Text [x=15.0   y=46.0   w=273.0  h=51.0  ] "完成 React 18 升级，性能提升 40%"
+│   ╰─ font-size=18pt
+│ │ ├─ Box [x=318.0  y=0.0    w=302.0  h=143.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=6px  col-gap=6px   pad=[15px 15px 15px 15px]bg=#e3f2fd
+│ │ │ ├─ Text [x=15.0   y=15.0   w=273.0  h=26.0  ] "API 优化"
+│   ╰─ font-size=18pt
+│ │ │ ├─ Text [x=15.0   y=46.0   w=273.0  h=26.0  ] "响应时间降低至 50ms 以内"
+│   ╰─ font-size=18pt
+│ ├─ Box [x=50.0   y=222.0  w=620.0  h=143.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=15px  col-gap=15px
+│ │ ├─ Box [x=0.0    y=0.0    w=303.0  h=143.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=6px  col-gap=6px   pad=[15px 15px 15px 15px]bg=#e3f2fd
+│ │ │ ├─ Text [x=15.0   y=15.0   w=273.0  h=26.0  ] "测试覆盖"
+│   ╰─ font-size=18pt
+│ │ │ ├─ Text [x=15.0   y=46.0   w=273.0  h=26.0  ] "单元测试覆盖率提升至 92%"
+│   ╰─ font-size=18pt
+│ │ ├─ Box [x=318.0  y=0.0    w=302.0  h=143.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=6px  col-gap=6px   pad=[15px 15px 15px 15px]bg=#e3f2fd
+│ │ │ ├─ Text [x=15.0   y=15.0   w=273.0  h=26.0  ] "部署自动化"
+│   ╰─ font-size=18pt
+│ │ │ ├─ Text [x=15.0   y=46.0   w=273.0  h=26.0  ] "CI/CD 流水线全面上线"
+│   ╰─ font-size=18pt
+
+━━━ Slide 4 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column   pad=[40px 50px 40px 50px]
+│ ├─ Text [x=50.0   y=40.0   w=620.0  h=40.0  ] "下一步计划"
+│   ╰─ color=#003366  font-size=28pt  font-weight=bold
+│ ├─ Box [x=50.0   y=79.0   w=620.0  h=25.0  ]
+│ │ ├─ Text [x=0.0    y=0.0    w=240.0  h=26.0  ] "1. 完成剩余 3 个待处理任务"
+│ │ ├─ Text [x=239.0  y=0.0    w=193.0  h=26.0  ] "2. 解决高风险安全漏洞"
+│ │ ├─ Text [x=431.0  y=0.0    w=198.0  h=26.0  ] "3. 准备 v2.0 发布计划"
+│ │ ├─ Text [x=628.0  y=0.0    w=156.0  h=26.0  ] "4. 组织技术分享会"
+
+━━━ Legend ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Coordinates: [x, y, w, h] in points (1pt = 1/72 inch)
+  Slide 16:9 = 720×405pt, 4:3 = 720×540pt
+  Child coordinates are relative to parent group origin

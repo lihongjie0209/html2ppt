@@ -1,0 +1,216 @@
+╔══════════════════════════════════════════════════════════════╗
+║              html2ppt Layout Debug Dump                     ║
+╚══════════════════════════════════════════════════════════════╝
+
+━━━ Slide 1 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  justify=center  align=center  row-gap=20px  col-gap=20px   pad=[30px 40px 30px 40px]bg=#1a237e
+│ ├─ Text [x=160.0  y=151.0  w=400.0  h=56.0  ] "Box Shadow Test"
+│   ╰─ color=white  font-size=40pt  font-weight=bold
+│ ├─ Text [x=110.0  y=227.0  w=500.0  h=27.0  ] "Testing CSS box-shadow rend..."
+│   ╰─ color=#90caf9  font-size=18pt
+
+━━━ Slide 2 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=20px  col-gap=20px   pad=[30px 40px 30px 40px]bg=#f5f5f5
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Shadow Sizes"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=84.0   w=640.0  h=291.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=20px  col-gap=20px
+│ │ ├─ Box [x=0.0    y=0.0    w=145.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=145.0  h=18.0  ] "Small (2px 2px 4px)"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=145.0  h=129.0 ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=white
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=105.0  h=46.0  ] "Small Shadow"
+│   ╰─ margin=[0 0 10px 0]color=#333333  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=74.0   w=105.0  h=34.0  ] "Subtle shadow for cards"
+│   ╰─ color=#666666  font-size=12pt
+│ │ ├─ Box [x=165.0  y=0.0    w=145.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=145.0  h=35.0  ] "Medium (4px 4px 8px)"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=49.0   w=145.0  h=129.0 ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=white
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=105.0  h=45.0  ] "Medium Shadow"
+│   ╰─ margin=[0 0 10px 0]color=#333333  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=74.0   w=105.0  h=34.0  ] "Standard card shadow"
+│   ╰─ color=#666666  font-size=12pt
+│ │ ├─ Box [x=330.0  y=0.0    w=145.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=145.0  h=35.0  ] "Large (6px 6px 16px)"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=49.0   w=145.0  h=129.0 ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=white
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=105.0  h=45.0  ] "Large Shadow"
+│   ╰─ margin=[0 0 10px 0]color=#333333  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=74.0   w=105.0  h=34.0  ] "Elevated card style"
+│   ╰─ color=#666666  font-size=12pt
+│ │ ├─ Box [x=495.0  y=0.0    w=145.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=145.0  h=35.0  ] "Extra Large (10px 10px 30px)"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=49.0   w=145.0  h=106.0 ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=white
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=105.0  h=23.0  ] "XL Shadow"
+│   ╰─ margin=[0 0 10px 0]color=#333333  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=105.0  h=35.0  ] "Heavy shadow effect"
+│   ╰─ color=#666666  font-size=12pt
+
+━━━ Slide 3 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=20px  col-gap=20px   pad=[30px 40px 30px 40px]bg=#f5f5f5
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Colored Shadows"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=84.0   w=640.0  h=291.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=20px  col-gap=20px
+│ │ ├─ Box [x=0.0    y=0.0    w=200.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=200.0  h=18.0  ] "Blue Shadow"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=200.0  h=106.0 ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=white
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=160.0  h=23.0  ] "Blue Glow"
+│   ╰─ margin=[0 0 10px 0]color=#333333  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=160.0  h=35.0  ] "rgba(33, 150, 243, 0.5)"
+│   ╰─ color=#666666  font-size=12pt
+│ │ ├─ Box [x=220.0  y=0.0    w=200.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=200.0  h=18.0  ] "Red Shadow"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=200.0  h=90.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=white
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=160.0  h=23.0  ] "Red Glow"
+│   ╰─ margin=[0 0 10px 0]color=#333333  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=160.0  h=18.0  ] "rgba(244, 67, 54, 0.5)"
+│   ╰─ color=#666666  font-size=12pt
+│ │ ├─ Box [x=440.0  y=0.0    w=200.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=200.0  h=18.0  ] "Green Shadow"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=200.0  h=90.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=white
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=160.0  h=23.0  ] "Green Glow"
+│   ╰─ margin=[0 0 10px 0]color=#333333  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=160.0  h=18.0  ] "rgba(76, 175, 80, 0.5)"
+│   ╰─ color=#666666  font-size=12pt
+
+━━━ Slide 4 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=20px  col-gap=20px   pad=[30px 40px 30px 40px]bg=#f5f5f5
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Shadow Directions"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=84.0   w=640.0  h=291.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=20px  col-gap=20px
+│ │ ├─ Box [x=0.0    y=0.0    w=145.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=145.0  h=18.0  ] "Right (8px 0px)"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=145.0  h=129.0 ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=white
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=105.0  h=46.0  ] "Right Shadow"
+│   ╰─ margin=[0 0 10px 0]color=#333333  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=74.0   w=105.0  h=34.0  ] "Shadow to the right"
+│   ╰─ color=#666666  font-size=12pt
+│ │ ├─ Box [x=165.0  y=0.0    w=145.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=145.0  h=18.0  ] "Bottom (0px 8px)"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=145.0  h=129.0 ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=white
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=105.0  h=46.0  ] "Bottom Shadow"
+│   ╰─ margin=[0 0 10px 0]color=#333333  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=74.0   w=105.0  h=34.0  ] "Shadow at bottom"
+│   ╰─ color=#666666  font-size=12pt
+│ │ ├─ Box [x=330.0  y=0.0    w=145.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=145.0  h=18.0  ] "Left (-8px 0px)"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=145.0  h=129.0 ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=white
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=105.0  h=46.0  ] "Left Shadow"
+│   ╰─ margin=[0 0 10px 0]color=#333333  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=74.0   w=105.0  h=34.0  ] "Shadow to the left"
+│   ╰─ color=#666666  font-size=12pt
+│ │ ├─ Box [x=495.0  y=0.0    w=145.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=145.0  h=18.0  ] "Top (0px -8px)"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=145.0  h=112.0 ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=white
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=105.0  h=46.0  ] "Top Shadow"
+│   ╰─ margin=[0 0 10px 0]color=#333333  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=74.0   w=105.0  h=17.0  ] "Shadow at top"
+│   ╰─ color=#666666  font-size=12pt
+
+━━━ Slide 5 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=20px  col-gap=20px   pad=[30px 40px 30px 40px]bg=#eeeeee
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Shadow with Named/Hex Colors"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=84.0   w=640.0  h=291.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=20px  col-gap=20px
+│ │ ├─ Box [x=0.0    y=0.0    w=200.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=200.0  h=18.0  ] "Named Color (black)"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=200.0  h=90.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=white
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=160.0  h=23.0  ] "Black Shadow"
+│   ╰─ margin=[0 0 10px 0]color=#333333  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=160.0  h=18.0  ] "Using "black" keyword"
+│   ╰─ color=#666666  font-size=12pt
+│ │ ├─ Box [x=220.0  y=0.0    w=200.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=200.0  h=18.0  ] "Hex Color (#333)"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=200.0  h=90.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=white
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=160.0  h=23.0  ] "Gray Shadow"
+│   ╰─ margin=[0 0 10px 0]color=#333333  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=160.0  h=18.0  ] "Using hex #333"
+│   ╰─ color=#666666  font-size=12pt
+│ │ ├─ Box [x=440.0  y=0.0    w=200.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=200.0  h=18.0  ] "Long Hex (#FF5722)"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=200.0  h=90.0  ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=white
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=160.0  h=23.0  ] "Orange Shadow"
+│   ╰─ margin=[0 0 10px 0]color=#333333  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=160.0  h=18.0  ] "Deep orange hex"
+│   ╰─ color=#666666  font-size=12pt
+
+━━━ Slide 6 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ Slide [x=0.0    y=0.0    w=720.0  h=405.0 ]
+│   ╰─ display=flex  flex-dir=column  row-gap=20px  col-gap=20px   pad=[30px 40px 30px 40px]bg=#e0e0e0
+│ ├─ Text [x=40.0   y=30.0   w=640.0  h=34.0  ] "Shadow Comparison"
+│   ╰─ color=#1a237e  font-size=24pt  font-weight=bold
+│ ├─ Box [x=40.0   y=84.0   w=640.0  h=291.0 ]
+│   ╰─ display=flex  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=20px  col-gap=20px
+│ │ ├─ Box [x=0.0    y=0.0    w=310.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=310.0  h=18.0  ] "No Shadow"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=310.0  h=106.0 ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=white
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=270.0  h=23.0  ] "Flat Card"
+│   ╰─ margin=[0 0 10px 0]color=#333333  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=270.0  h=35.0  ] "Without any shadow, the car..."
+│   ╰─ color=#666666  font-size=12pt
+│ │ ├─ Box [x=330.0  y=0.0    w=310.0  h=291.0 ]
+│   ╰─ display=flex  flex-dir=column  flex-grow=1  flex-shrink=1  flex-basis=0  row-gap=10px  col-gap=10px
+│ │ │ ├─ Text [x=0.0    y=0.0    w=310.0  h=18.0  ] "With Shadow"
+│   ╰─ margin=[0 0 5px 0]color=#666666  font-size=12pt
+│ │ │ ├─ Box [x=0.0    y=32.0   w=310.0  h=106.0 ]
+│   ╰─ pad=[20px 20px 20px 20px]bg=white
+│ │ │ │ ├─ Text [x=20.0   y=20.0   w=270.0  h=23.0  ] "Elevated Card"
+│   ╰─ margin=[0 0 10px 0]color=#333333  font-size=16pt  font-weight=bold
+│ │ │ │ ├─ Text [x=20.0   y=52.0   w=270.0  h=35.0  ] "With shadow, the card appea..."
+│   ╰─ color=#666666  font-size=12pt
+
+━━━ Legend ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Coordinates: [x, y, w, h] in points (1pt = 1/72 inch)
+  Slide 16:9 = 720×405pt, 4:3 = 720×540pt
+  Child coordinates are relative to parent group origin

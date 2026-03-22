@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Speaker Notes Test</title>
+  <style>
+    section {
+      width: 960px;
+      height: 540px;
+      padding: 40px;
+      background: white;
+    }
+    h1 { font-size: 36px; color: #333; margin-bottom: 20px; }
+    h2 { font-size: 24px; color: #666; margin-bottom: 15px; }
+    p { font-size: 18px; line-height: 1.6; }
+    .highlight { background: #e8f0fe; padding: 20px; border-radius: 8px; }
+    aside.notes { display: none; } /* Notes are hidden in HTML view */
+  </style>
+</head>
+<body>
+
+<!-- Slide 1: Title with notes -->
+<section style="background: linear-gradient(to right, #667eea, #764ba2);">
+  <h1 style="color: white;">Welcome to Our Presentation</h1>
+  <p style="color: white;">This slide has speaker notes attached.</p>
+  <aside class="notes">
+    Welcome everyone to today's presentation. Remember to introduce yourself and thank the audience for attending. Key points: 1) Stay on schedule, 2) Engage with questions, 3) End with a call to action.
+  </aside>
+</section>
+
+<!-- Slide 2: Content slide with detailed notes -->
+<section>
+  <h1>Project Overview</h1>
+  <div class="highlight">
+    <h2>Key Objectives</h2>
+    <p>• Improve efficiency by 30%</p>
+    <p>• Reduce costs by $500K annually</p>
+    <p>• Launch by Q4 2026</p>
+  </div>
+  <aside class="notes">
+    This slide covers our main objectives. Emphasize the 30% efficiency gain - this is based on our pilot study with Team Alpha. The cost reduction comes primarily from automation of manual processes. Q4 deadline is firm - we have stakeholder commitments.
+  </aside>
+</section>
+
+<!-- Slide 3: No notes (verify it still works) -->
+<section>
+  <h1>Technical Architecture</h1>
+  <p>This slide intentionally has no speaker notes.</p>
+  <p>It should render normally without any issues.</p>
+</section>
+
+<!-- Slide 4: Long notes -->
+<section>
+  <h1>Implementation Timeline</h1>
+  <h2>Phase 1: Planning (Q1)</h2>
+  <p>Requirements gathering and design</p>
+  <h2>Phase 2: Development (Q2-Q3)</h2>
+  <p>Core functionality implementation</p>
+  <h2>Phase 3: Testing (Q4)</h2>
+  <p>QA, UAT, and deployment</p>
+  <aside class="notes">
+    Phase 1 (Q1): Focus on stakeholder interviews and requirement documentation. We need sign-off from Legal, Finance, and Operations. Design reviews should be completed by end of March.
+    
+    Phase 2 (Q2-Q3): Development sprints with bi-weekly demos. Key milestones: API completion by June, UI by August. Risk: Integration with legacy systems may cause delays.
+    
+    Phase 3 (Q4): Testing includes automated regression suite, performance testing under load, and user acceptance. Deployment strategy: Blue-green deployment with 2-week monitoring period.
+    
+    Remember to highlight contingency plans if asked about risks.
+  </aside>
+</section>
+
+<!-- Slide 5: Q&A slide -->
+<section style="background: #f5f5f5;">
+  <h1 style="text-align: center;">Questions?</h1>
+  <p style="text-align: center; font-size: 24px; margin-top: 40px;">Thank you for your attention</p>
+  <aside class="notes">
+    Open the floor for questions. Prepared answers: Budget question - approved with 10% contingency. Team size - 8 FTEs plus 3 contractors. Technology stack - confirmed with IT architecture review.
+  </aside>
+</section>
+
+</body>
+</html>

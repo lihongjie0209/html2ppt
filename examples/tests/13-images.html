@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html data-layout="16x9">
+<head>
+  <style>
+    section { padding: 30px 40px; display: flex; flex-direction: column; gap: 15px; }
+    h2 { font-size: 24pt; color: #1a237e; }
+    .title-slide { background-color: #1565c0; justify-content: center; align-items: center; }
+    .title-slide h1 { color: white; font-size: 40pt; }
+    .title-slide p { color: #bbdefb; font-size: 18pt; }
+    .row { display: flex; gap: 15px; flex: 1; }
+    .col { display: flex; flex-direction: column; gap: 10px; flex: 1; }
+    .label { font-size: 14pt; color: #666666; }
+    .card { 
+      display: flex; flex-direction: column; gap: 10px;
+      background-color: #f5f5f5; padding: 15px; border-radius: 8px; 
+    }
+    .card p { font-size: 14pt; }
+    .centered { display: flex; justify-content: center; align-items: center; }
+    .profile { display: flex; gap: 15px; align-items: center; }
+    .profile-info { display: flex; flex-direction: column; gap: 5px; }
+    .profile-name { font-size: 16pt; font-weight: bold; }
+    .profile-role { font-size: 12pt; color: #757575; }
+    .product-grid { display: flex; gap: 20px; flex: 1; }
+    .product-card {
+      flex: 1; display: flex; flex-direction: column;
+      background-color: white; border-radius: 8px; padding: 15px;
+      border: 1px solid #e0e0e0; gap: 10px;
+    }
+    .product-name { font-size: 16pt; font-weight: bold; text-align: center; }
+    .product-price { font-size: 14pt; color: #4caf50; text-align: center; }
+    .logo-header { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; }
+    .nav { display: flex; gap: 20px; }
+    .nav-item { font-size: 14pt; color: #1565c0; }
+  </style>
+</head>
+<body>
+
+  <!-- Slide 1: Title -->
+  <section class="title-slide">
+    <h1>Images Test</h1>
+    <p>Testing &lt;img&gt; element rendering in PowerPoint</p>
+  </section>
+
+  <!-- Slide 2: Basic Images -->
+  <section>
+    <h2>Basic Images</h2>
+    <div class="row">
+      <div class="col">
+        <p class="label">Simple image (no sizing)</p>
+        <div class="centered">
+          <img src="images/red-square.png">
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">Rectangle image</p>
+        <div class="centered">
+          <img src="images/blue-rect.png">
+        </div>
+      </div>
+      <div class="col">
+        <p class="label">PNG with transparency</p>
+        <div class="centered">
+          <img src="images/green-circle.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 3: Sized Images -->
+  <section>
+    <h2>Sized Images</h2>
+    <div class="row">
+      <div class="col">
+        <p class="label">width: 80px</p>
+        <img src="images/red-square.png" style="width: 80px;">
+      </div>
+      <div class="col">
+        <p class="label">width: 120px</p>
+        <img src="images/red-square.png" style="width: 120px;">
+      </div>
+      <div class="col">
+        <p class="label">width: 50px; height: 50px</p>
+        <img src="images/red-square.png" style="width: 50px; height: 50px;">
+      </div>
+      <div class="col">
+        <p class="label">max-width: 100px</p>
+        <img src="images/blue-rect.png" style="max-width: 100px;">
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 4: Images in Flex Layout -->
+  <section>
+    <h2>Images in Flex Layout</h2>
+    <div class="row">
+      <div class="col centered">
+        <img src="images/product1.png">
+        <p>Centered in column</p>
+      </div>
+      <div class="col">
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+          <img src="images/avatar1.png">
+          <img src="images/avatar2.png">
+          <img src="images/avatar1.png">
+        </div>
+        <p>Multiple images in row</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 5: Profile Cards with Images -->
+  <section>
+    <h2>Profile Cards</h2>
+    <div class="row">
+      <div class="card">
+        <div class="profile">
+          <img src="images/avatar1.png" style="width: 60px; height: 60px;">
+          <div class="profile-info">
+            <p class="profile-name">Alice Chen</p>
+            <p class="profile-role">Software Engineer</p>
+          </div>
+        </div>
+        <p>Working on the new dashboard features.</p>
+      </div>
+      <div class="card">
+        <div class="profile">
+          <img src="images/avatar2.png" style="width: 60px; height: 60px;">
+          <div class="profile-info">
+            <p class="profile-name">Bob Wang</p>
+            <p class="profile-role">Product Manager</p>
+          </div>
+        </div>
+        <p>Leading the Q2 roadmap planning.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 6: Product Grid -->
+  <section>
+    <h2>Product Showcase</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="images/product1.png">
+        <p class="product-name">Widget Pro</p>
+        <p class="product-price">$49.99</p>
+      </div>
+      <div class="product-card">
+        <img src="images/product2.png">
+        <p class="product-name">Gadget Plus</p>
+        <p class="product-price">$79.99</p>
+      </div>
+      <div class="product-card">
+        <img src="images/product3.png">
+        <p class="product-name">Device Max</p>
+        <p class="product-price">$129.99</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Slide 7: Header with Logo -->
+  <section>
+    <div class="logo-header">
+      <img src="images/logo.png" style="height: 40px;">
+      <div class="nav">
+        <p class="nav-item">Home</p>
+        <p class="nav-item">Products</p>
+        <p class="nav-item">About</p>
+        <p class="nav-item">Contact</p>
+      </div>
+    </div>
+    <h2>Company Overview</h2>
+    <div class="row">
+      <div class="col">
+        <p>Our company specializes in innovative solutions for modern businesses.</p>
+        <p>Founded in 2020, we've grown to serve over 500 clients worldwide.</p>
+      </div>
+      <div class="col centered">
+        <img src="images/product1.png" style="width: 200px;">
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

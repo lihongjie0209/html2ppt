@@ -71,6 +71,16 @@ Run the quality gate:
 ./gradlew test jacocoTestCoverageVerification
 ```
 
+Release from GitHub CI:
+
+```bash
+git push origin main
+git tag v1.0.0
+git push origin v1.0.0
+```
+
+Tags matching `v*` trigger the GitHub Actions release workflow, which runs `./gradlew test jar` and publishes the generated `build/libs/*.jar` as the GitHub Release asset.
+
 ## Specification Guide
 
 The project has one main spec file, but it covers multiple feature areas. This table is the fastest way to navigate it.
@@ -316,6 +326,17 @@ python examples/tests/scripts/ppt_to_images.py examples/tests/output/24-master-s
 ```
 
 The `examples/tests/` directory is the best place to see the current feature surface in action.
+
+## GitHub Release Workflow
+
+Releases are built in GitHub Actions, not by manually uploading local artifacts.
+
+Workflow summary:
+
+- push code to `main`
+- push a version tag such as `v1.0.0`
+- GitHub Actions runs `./gradlew test jar`
+- the workflow publishes `build/libs/*.jar` to the GitHub Release for that tag
 
 ## Project Structure
 
